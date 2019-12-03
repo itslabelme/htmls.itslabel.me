@@ -7,5 +7,9 @@
 
 .form-control{
 	height: 40px;
+	border-radius: 0px;
 }
 
+.btn-group-lg>.btn, .btn-lg{
+	border-radius: 0px;
+}
