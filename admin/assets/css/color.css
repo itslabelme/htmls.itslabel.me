@@ -17,3 +17,7 @@ a:hover{
     background-color: #6e62f6;
     border-color: #6e62f6;	
 }
+
+.sidebar-nav .metismenu>li.active>a{
+	color: #20aa19;
+}

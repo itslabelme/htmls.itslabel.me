@@ -3096,13 +3096,13 @@ html.fullscreen-bg #wrapper {
 	}
 }
 
-#left-sidebar .navbar-brand a:hover .logo {
+/* #left-sidebar .navbar-brand a:hover .logo {
 	-webkit-animation: fa-spin 2s infinite linear;
 	animation: fa-spin 2s infinite linear
-}
+} */
 
 #left-sidebar .navbar-brand .logo {
-	width: 25px
+/*	width: 25px */
 }
 
 #left-sidebar .navbar-brand span {
