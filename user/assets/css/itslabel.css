@@ -1,0 +1,32 @@
+/** Register Page **/
+
+.auth_brand .navbar-brand{
+	margin: 0px;
+}
+
+
+.form-control{
+	height: 40px;
+	border-radius: 0px;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+	border-radius: 0px;
+}
+
+/** Dashboard **/
+
+.header h2 {
+    font-size: 20px;
+    color: rgb(33, 40, 52);
+    position: relative;
+}
+
+.its-upload-container h3{
+	font-size: 20px;
+}
+
+.its-upload-container h4{
+	font-size: 14px;
+}
+
