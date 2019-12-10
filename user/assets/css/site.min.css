@@ -2727,7 +2727,7 @@ html.fullscreen-bg #wrapper {
 }
 
 .top-navbar .navbar-btn .logo {
-	width: 30px
+	width: 80px
 }
 
 @media screen and (max-width: 640px) {
@@ -12703,7 +12703,8 @@ ul.gallery li a {
 
 .light_version .fancy-radio input[type="radio"]+span i,
 .light_version .fancy-checkbox input[type="checkbox"]+span:before {
-	border-color: #e1e8ed
+	border-color: #fff;
+	color: #fff;
 }
 
 .light_version .list-group-item {

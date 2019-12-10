@@ -2727,7 +2727,7 @@ html.fullscreen-bg #wrapper {
 }
 
 .top-navbar .navbar-btn .logo {
-	width: 30px
+	width: 80px
 }
 
 @media screen and (max-width: 640px) {
@@ -13139,3 +13139,4 @@ ul.gallery li a {
 .light_version .team-info li img {
 	border-color: #fff
 }
+

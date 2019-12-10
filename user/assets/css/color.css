@@ -1,5 +1,5 @@
 a{
-	color: #20aa19;
+	color: #0d8241;
 }
 
 a:hover{
@@ -9,8 +9,8 @@ a:hover{
 
 .btn-primary{
 	color: #fff;
-    background-color: #20aa19;
-    border-color: #20aa19;
+    background-color: #0d8241;
+    border-color: #0d8241;
 }
 
 .btn-primary:hover{
@@ -19,5 +19,15 @@ a:hover{
 }
 
 .sidebar-nav .metismenu>li.active>a{
-	color: #20aa19;
+	color: #0d8241;
 }
+
+.badge-success{
+	border-color: #0d8241;
+    color: #0d8241;
+}
+
+.bg-green{
+	background-color: #0d8241;
+}
+
