@@ -21,3 +21,12 @@ a:hover{
 .sidebar-nav .metismenu>li.active>a{
 	color: #20aa19;
 }
+
+.light_version .top-navbar{
+    background-color: #0d8241 !important;
+
+}
+
+.light_version .navbar-nav .icon-menu{
+    color: #fff;
+}

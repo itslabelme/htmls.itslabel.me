@@ -15,6 +15,18 @@
 }
 
 #left-sidebar .navbar-brand .logo{
-	width: 125px;
+	width: 100px;
 }
 
+
+.light_version #left-sidebar .navbar-brand{
+	background: #0d8241;
+	margin: 0px;
+	padding: 10px;
+	border: none;
+}
+
+
+.light_version #left-sidebar{
+	border: none;
+}
