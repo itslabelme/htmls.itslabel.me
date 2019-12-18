@@ -24,7 +24,9 @@
     <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+
     <!-- VENDOR CSS -->
+
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/vendor/animate-css/vivify.min.css">
@@ -34,6 +36,8 @@
     <link rel="stylesheet" href="assets/vendor/dropify/css/dropify.css">
 
     <link rel="stylesheet" href="assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.css">
+
+    <link rel="stylesheet" href="assets/css/handsontable.full.min.css">
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="assets/css/site.min.css">
@@ -318,57 +322,16 @@
                             </div>
 
                             <div class="body">
-                                <h5 class="mb-4">Import Data</h5>
-                                <form id="basic-form" method="post" novalidate="">
-                                    <div class="row">
-                                        <div class="form-group col-md-4">
-                                            <label>Name of the document</label>
-                                            <input type="text" class="form-control" required="">
-                                        </div>
-                                        <div class="form-group col-md-4">
-                                            <label>Source Language</label>
-                                            <div class="input-group mb-3">
-                                                <select class="custom-select" id="inputGroupSelect02">
-                                                    <option selected="">Choose...</option>
-                                                    <option value="1">English</option>
-                                                    <option value="2">Arabic</option>
-                                                    <option value="3">French</option>
-                                                </select>
-                                                <div class="input-group-append">
-                                                    <label class="input-group-text" for="inputGroupSelect02">Options</label>
-                                                </div>
-                                            </div>
-                                        </div>
 
-                                        <div class="form-group col-md-4">
-                                            <label>Translate Language</label>
-                                            <div class="input-group mb-3">
-                                                <select class="custom-select" id="inputGroupSelect02">
-                                                    <option selected="">Choose...</option>
-                                                    <option value="1">English</option>
-                                                    <option value="2">Arabic</option>
-                                                    <option value="3">French</option>
-                                                </select>
-                                                <div class="input-group-append">
-                                                    <label class="input-group-text" for="inputGroupSelect02">Options</label>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div id="hot"></div>
 
-                                  <div class="form-group col-md-12">
-                                        <label>Upload the file</label>
-                                        <input type="file" class="dropify">
-<button class="btn btn-primary float-right mt-4" type="button"  onclick="window.location.href = 'new-translation3.html';">Submit</button>
-
+                                <div class="row mt-3">
+                                    <div class="col-md-12 col-sm-12">
+                                        <a href="#" class="btn btn-sm btn-success its-export-btn bg-green float-right" title=""><i class="icon-arrow-down"></i>Download</a>
                                     </div>
 
+                                </div>
 
-                                    </div>
-
-  
-
-
-                                </form>
                             </div>
 
                         </div>
@@ -414,13 +377,9 @@
     <script src="assets/js/index.js"></script>
     <script src="assets/js/pages/tables/editable-table.js"></script>
     <script src="assets/js/pages/forms/advanced-form-elements.js"></script>
+    <script src="assets/js/handsontable.full.min.js"></script>
 
-    <script type="text/javascript">
-        $(".dropdown-menu li a").click(function() {
-            $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
-            $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
-        });
-    </script>
+    <script src="assets/js/handsontable.js"></script>
 
 </body>
 

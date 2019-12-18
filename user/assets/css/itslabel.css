@@ -36,7 +36,7 @@
 }
 
 #left-sidebar .navbar-brand .logo{
-	width: 100px;
+	width: 80px;
 }
 
 .its-export-btn i{
@@ -125,4 +125,11 @@
 
 #Profile img{
 	max-width: 30%;
+}
+
+
+/** Handsontable **/
+
+.handsontable .handsontable.ht_clone_top .wtHider{
+	width: 100% !important;
 }

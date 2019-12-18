@@ -48,11 +48,33 @@ a:hover{
 
 .light_version .navbar-nav .icon-menu{
 	color: #fff;
+	padding-left: 0px;
 }
 
 .light_version #left-sidebar .navbar-brand{
 	background-color: #0d8241 !important;
 	margin: 0px;
-	padding: 9px;	
+	padding: 14px 20px 14px;	
 }
 
+.custom-select:focus{
+	background: white;
+	color: #0d8241;
+}
+
+.btn-success{
+	background:  #0d8241;
+}
+
+.its-export-btn{
+	color: #fff;
+}
+
+/** Handsontable **/
+
+/* All headers */
+.ht_clone_top.handsontable th {
+  background-color: #0d8241;
+  color: #fff;
+  height: 30px;
+}
