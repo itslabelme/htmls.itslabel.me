@@ -30,11 +30,9 @@
 <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/vendor/animate-css/vivify.min.css">
 
-<link rel="stylesheet" href="assets/vendor/c3/c3.min.css"/>
-
-<link rel="stylesheet" href="assets/vendor/dropify/css/dropify.css">
-
 <link rel="stylesheet" href="assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.css">
+
+    <link rel="stylesheet" href="assets/css/handsontable.full.min.css">
 
 <!-- MAIN CSS -->
 <link rel="stylesheet" href="assets/css/site.min.css">
@@ -359,55 +357,7 @@
                                 </div>
                             </form>
 
-                            <table id="mainTable" class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Ingredient</th>
-                                        <th>Group</th>
-                                        <th>Weight</th>
-                                        <th>Percentage</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th>1</th>
-                                        <td>Biotin</td>
-                                        <td>Total Fat</td>
-                                        <td>20 g</td>
-                                        <td>4.5%</td>
-                                    </tr>
-                                    <tr>
-                                        <th>2</th>
-                                        <td>Biotin</td>
-                                        <td>Total Fat</td>
-                                        <td>20 g</td>
-                                        <td>4.5%</td>
-                                    </tr>
-                                    <tr>
-                                        <th>3</th>
-                                        <td>Biotin</td>
-                                        <td>Total Fat</td>
-                                        <td>20 g</td>
-                                        <td>4.5%</td>
-                                    </tr>
-                                    <tr>
-                                        <th></th>
-                                        <td>Enter New Word to Translate</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <th></th>
-                                        <td>Enter New Word to Translate</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-
-                            </table>
+                            <div id="translation-its2"></div>
 
                         </div>
                     </div>
@@ -452,23 +402,13 @@
 <script src="assets/bundles/libscripts.bundle.js"></script>
 <script src="assets/bundles/vendorscripts.bundle.js"></script>
 
-<script src="assets/bundles/c3.bundle.js"></script>
-<script src="assets/vendor/dropify/js/dropify.js"></script>
-<script src="assets/js/pages/forms/dropify.js"></script>
-<script src="assets/vendor/editable-table/mindmup-editabletable.js"></script>
 <script src="assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
 
 <script src="assets/bundles/mainscripts.bundle.js"></script>
-<script src="assets/js/index.js"></script>
-<script src="assets/js/pages/tables/editable-table.js"></script>
-<script src="assets/js/pages/forms/advanced-form-elements.js"></script>
 
-<script type="text/javascript">
-    $(".dropdown-menu li a").click(function(){
-  $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
-  $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
-});
-</script>
+    <script src="assets/js/handsontable.full.min.js"></script>
+    <script src="assets/js/handsontable2.js"></script>
+
 
 </body>
 </html>

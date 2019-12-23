@@ -136,6 +136,7 @@
 
 .handsontable tr{
 	background: #ccc;
+	text-align: left;
 }
 
 .handsontable thead tr th{

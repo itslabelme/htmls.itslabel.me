@@ -111,7 +111,7 @@ var dataObject = [
     destination: 'Amino Acid'
   }  
 ];
-var hotElement = document.querySelector('#hot');
+var hotElement = document.querySelector('#translation-its1');
 var hotElementContainer = hotElement.parentNode;
 var hotSettings = {
   data: dataObject,
