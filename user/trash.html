@@ -9,7 +9,6 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
-
 <link rel="apple-touch-icon" sizes="57x57" href="../assets/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="../assets/favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/apple-icon-72x72.png">
@@ -24,7 +23,6 @@
 <link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
 <meta name="msapplication-TileImage" content="../assets/favicon/ms-icon-144x144.png">
-
 <!-- VENDOR CSS -->
 <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="../assets/vendor/font-awesome/css/font-awesome.min.css">
@@ -54,6 +52,7 @@
 <div class="overlay"></div>
 
 <div id="wrapper">
+
     <!-- Top Navigation -->
     <nav class="navbar top-navbar">
         <div class="container-fluid">
@@ -224,8 +223,6 @@
 
     <!-- End Search Container -->
 
-
-
     <!-- Left Sidebar -->
 
     <div id="left-sidebar" class="sidebar">
@@ -255,10 +252,10 @@
                         </li>
                         <li><a href="document-list.html"><i class="icon-folder"></i><span>Translation list</span></a></li>
                         <li><a href="favorite.html"><i class="fa fa-star"></i><span>Favorites</span></a></li>
-                        <li><a href="trash.html"><i class="icon-trash"></i><span>Trash</span></a></li>
+                        <li class="active"><a href="trash.html"><i class="icon-trash"></i><span>Trash</span></a></li>
 
                     <li class="header">Main</li>
-                    <li class="active"><a href="index.html"><i class="icon-speedometer"></i><span>Dashboard</span></a></li>
+                    <li><a href="index.html"><i class="icon-speedometer"></i><span>Dashboard</span></a></li>
                     <li><a href="page-profile.html"><i class="icon-user"></i><span>User Profile</span></a></li>
                 </ul>
             </nav>     
@@ -267,89 +264,32 @@
 
     <!-- End Left Sidebar -->
 
+
+    <!-- Main Content -->
+
     <div id="main-content">
         <div class="container-fluid">
             <div class="block-header">
                 <div class="row clearfix">
                     <div class="col-md-6 col-sm-12">
-                        <h1>Dashboard</h1>
+                        <h1>Trash List</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Welcome to It's Label</a></li>
+                            <li class="breadcrumb-item"><a href="#">Its Label</a></li>
+                            <li class="breadcrumb-item active">Trash List</li>
                             </ol>
                         </nav>
                     </div>   
                 </div>
             </div>
 
-            <div class="row clearfix its-upload-container">
-                <div class="col-lg-6 col-md-6" style="display: none;">
-                    <div class="card">
-                        <div class="body">
-                            <div class="d-flex align-items-center">
-                                <div class="icon-in-bg bg-indigo text-white rounded-circle"><i class="fa fa-briefcase"></i></div>
-                                <div class="ml-4">
-                                    <h3>Upload the Document</h3>
-                                    <h4 class="mb-0 font-weight-medium">Letraset sheets containing Lorem Ipsum passages</h4>                    
-                                </div>
-                                <!-- File Upload -->
-                            </div>
-                            <div class="mt-4">
-                            <input type="file" class="dropify">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="body">
-                            <div class="d-flex align-items-center">
-                                <div class="icon-in-bg bg-azura text-white rounded-circle"><i class="fa fa-credit-card"></i></div>
-                                <div class="ml-4">
-                                    <h3>Pick one from the Template</h3>
-                                    <h4 class="mb-0 font-weight-medium">Letraset sheets containing Lorem Ipsum passages</h4>
-                                </div>
-                            </div>
-
-                            <div class="mt-4">
-                                <p>Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum infancy. Various versions have evolved over the years, sometimes by accident</p>
-
-                                <p>Content here, content here', making it look like readable English. Many desktop publishing  web page editors now use web sites still in their infancy. Various versions have evolved over the years, sometimes by accident</p>
-                                <button class="btn btn-primary btn-block" type="button"><a href="select-template.html" style="color: #fff;display: block;">Select a Template</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-6 col-md-6">
-                        <div class="card">
-                            <div class="body">
-                                <div class="d-flex align-items-center">
-                                    <div class="icon-in-bg bg-azura text-white rounded-circle"><i class="fa fa-credit-card"></i></div>
-                                    <div class="ml-4">
-                                        <h3>Upload the Document</h3>
-                                        <h4 class="mb-0 font-weight-medium">Letraset sheets containing Lorem Ipsum passages</h4>
-                                    </div>
-                                </div>
-    
-                                <div class="mt-4">
-                                    <p>Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum infancy. Various versions have evolved over the years, sometimes by accident</p>
-    
-                                    <p>Content here, content here', making it look like readable English. Many desktop publishing  web page editors now use web sites still in their infancy. Various versions have evolved over the years, sometimes by accident</p>
-                                    <button class="btn btn-primary btn-block" type="button"><a href="new-translation.html" style="color: #fff;display: block;">Upload the Document</a></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
 
             <div class="row clearfix">
-                <div class="col-lg-8 col-md-12">
+                <div class="col-lg-12 col-md-12">
 
-                    <div class="header">
+                   <!--  <div class="header">
                         <h2>Recent Translations</h2>
-                    </div>
+                    </div> -->
 
                     <div class="table-responsive">
                         <table class="table table-hover table-custom spacing5">
@@ -358,6 +298,8 @@
                                     <th style="width: 20px;">#</th>
                                     <th>Document Name</th>
                                     <th style="width: 50px;">Type</th>
+                                    <th style="width: 300px;">Tags</th>
+                                    <th style="width: 50px;">Created</th>
                                     <th style="width: 110px;">Action</th>
                                 </tr>
                             </thead>
@@ -369,15 +311,15 @@
                                     <td>
                                         <div class="d-flex align-items-center">
                                             <div>
-                                                <a href="#" title="">New Label 90237</a>  
+                                                <a href="translated-list.html" title="">New Label 90237</a>  
                                             </div>
                                         </div>
                                     </td>
                                     <td>Template</td>
+                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                    <td>Oct 24th 2019</td>
                                     <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Send Invoice" data-toggle="tooltip" data-placement="top"><i class="icon-envelope"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
+                                        <button type="button" class="btn btn-sm btn-default" title="Delete Permanently" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -387,15 +329,15 @@
                                     <td>
                                         <div class="d-flex align-items-center">
                                             <div>
-                                                <a href="javascript:void(0);" title="">Marmite Oct 2019</a>
+                                                <a href="translated-list.html" title="">Marmite Oct 2019</a>
                                             </div>
                                         </div>                                        
                                     </td>
                                     <td>Plain Text</td>
+                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                    <td>Oct 24th 2019</td>
                                     <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Send Invoice" data-toggle="tooltip" data-placement="top"><i class="icon-envelope"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
+                                        <button type="button" class="btn btn-sm btn-default" title="Delete Permanently" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -405,15 +347,15 @@
                                     <td>
                                         <div class="d-flex align-items-center">
                                             <div>
-                                                <a href="javascript:void(0);" title="">New Label 189263</a>
+                                                <a href="translated-list.html" title="">New Label 189263</a>
                                             </div>
                                         </div>                                        
                                     </td>
                                     <td>Template</td>
+                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                    <td>Oct 24th 2019</td>
                                     <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Send Invoice" data-toggle="tooltip" data-placement="top"><i class="icon-envelope"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
+                                        <button type="button" class="btn btn-sm btn-default" title="Delete Permanently" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -423,15 +365,15 @@
                                     <td>
                                         <div class="d-flex align-items-center">
                                             <div>
-                                                <a href="javascript:void(0);" title="">Robinson Foods</a>
+                                                <a href="translated-list.html" title="">Robinson Foods</a>
                                             </div>
                                         </div>
                                     </td>
                                     <td>Plain Text</td>
+                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                    <td>Oct 24th 2019</td>
                                     <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Send Invoice" data-toggle="tooltip" data-placement="top"><i class="icon-envelope"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
+                                        <button type="button" class="btn btn-sm btn-default" title="Delete Permanently" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -441,53 +383,135 @@
                                     <td>
                                         <div class="d-flex align-items-center">
                                             <div>
+                                                <a href="translated-list.html" title="">New Label 90456</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>Template</td>
+                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                    <td>Oct 22th 2019</td>
+                                    <td>
+                                        <button type="button" class="btn btn-sm btn-default" title="Delete Permanently" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <span>06</span>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <a href="javascript:void(0);" title="">New Label 90121</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>Template</td>
+                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                    <td>Aug 30th 2019</td>
+                                    <td>
+                                        <button type="button" class="btn btn-sm btn-default" title="Delete Permanently" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <span>07</span>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <a href="javascript:void(0);" title="">New Label 90459</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>Template</td>
+                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                    <td>Aug 30th 2019</td>
+                                    <td>
+                                        <button type="button" class="btn btn-sm btn-default" title="Delete Permanently" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <span>08</span>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div>
                                                 <a href="javascript:void(0);" title="">New Label 90456</a>
                                             </div>
                                         </div>
                                     </td>
                                     <td>Template</td>
+                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                    <td>Jun 30th 2019</td>
                                     <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Send Invoice" data-toggle="tooltip" data-placement="top"><i class="icon-envelope"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
+                                        <button type="button" class="btn btn-sm btn-default" title="Delete Permanently" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td>
+                                        <span>09</span>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <a href="javascript:void(0);" title="">New Label 90100</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>Template</td>
+                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                    <td>Mar 30th 2019</td>
+                                    <td>
+                                        <button type="button" class="btn btn-sm btn-default" title="Delete Permanently" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <span>10</span>
+                                    </td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <a href="javascript:void(0);" title="">New Label 90001</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>Template</td>
+                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                    <td>Jan 30th 2019</td>
+                                    <td>
+                                        <button type="button" class="btn btn-sm btn-default" title="Delete Permanently" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
+                                    </td>
+                                </tr>
+
                             </tbody>
                         </table>
+
+                        <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+                                </ul>
+                            </nav>
                     </div>
                 </div>  
-
-                <div class="col-lg-4 col-md-12">
-                    <div class="header">
-                        <h2>User Profile</h2>
-                    </div>
-
-                    <a class="card" href="javascript:void(0)">
-                        <div class="body text-center">
-                            <img class="img-thumbnail rounded-circle" src="../assets/images/sm/avatar1.jpg" alt="">
-                            <h6 class="mt-3">Krishna Prasad Varma</h6>
-                            <div class="text-center text-muted">Solutions Architect</div>
-                        </div>
-                        <div class="card-footer text-center">
-                            <div class="row clearfix">
-                                <div class="col-6">
-                                    <i class="fa fa-tag font-22"></i>
-                                    <div><span class="text-muted">9 Translations</span></div>
-                                </div>
-                                <div class="col-6">
-                                    <i class="fa fa-dollar font-22"></i>
-                                    <div><span class="text-muted">$ 3.100</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>                    
-                </div>                              
+                          
 
             </div>
 
 
         </div>
     </div>
+
+    <!-- End Main Content -->
     
 </div>
 
@@ -495,6 +519,9 @@
 <script src="../assets/bundles/libscripts.bundle.js"></script>
 <script src="../assets/bundles/vendorscripts.bundle.js"></script>
 <script src="../assets/bundles/mainscripts.bundle.js"></script>
+
+
+
 
 </body>
 </html>
