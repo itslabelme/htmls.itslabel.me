@@ -153,6 +153,26 @@
 	top: 4px;
 }
 
+.light_version .table tr td button:hover{
+	background:  #0d8241;
+}
+
+.light_version .table tr td button:hover i{
+	color: #fff;
+}
+
+.light_version .table tr td button.active{
+	background:  #0d8241;
+}
+
+.light_version .table tr td button.active i{
+	color: #fff;
+}
+
+.light_version .top-navbar{
+	z-index: 999;
+}
+
 /** HAndontable **/
 
 .handsontable td, .handsontable th{

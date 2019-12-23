@@ -85,16 +85,16 @@ a:hover{
 }
 
 .light_version .pagination {
-	display: block;
-	text-align: center;
+	float: right;
 }
 
-.light_version .pagination li{
-	display: inline-block;
-}
 
 .pagination>li>a, .pagination>li>span{
 	color: #0d8241; 
+}
+
+.body .bg-azura{
+	background:  #0d8241 !important;
 }
 
 .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus{
