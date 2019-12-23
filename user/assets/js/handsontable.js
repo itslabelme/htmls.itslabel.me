@@ -130,6 +130,8 @@ var hotSettings = {
   autoWrapRow: true,
   height: 600,
   maxRows: 100,
+  //colWidths: [45, 100, 160, 60, 80, 80, 80],
+  rowHeights: 50,
   manualRowResize: true,
   manualColumnResize: true,
   rowHeaders: true,
@@ -141,7 +143,8 @@ var hotSettings = {
   manualColumnMove: true,
   contextMenu: true,
   filters: true,
-  dropdownMenu: true
+  dropdownMenu: true,
+
 };
 var hot = new Handsontable(hotElement, hotSettings);
 

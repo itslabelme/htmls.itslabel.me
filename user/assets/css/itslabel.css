@@ -128,8 +128,22 @@
 }
 
 
-/** Handsontable **/
+/** HAndontable **/
 
-.handsontable .handsontable.ht_clone_top .wtHider{
-	width: 100% !important;
+.handsontable td, .handsontable th{
+	line-height: 50px;
 }
+
+.handsontable tr{
+	background: #ccc;
+}
+
+.handsontable thead tr th{
+	background:  #0d8241;
+	color: #fff;
+}
+
+.handsontable .changeType{
+	margin-top: 20px;
+}
+

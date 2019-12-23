@@ -70,11 +70,3 @@ a:hover{
 	color: #fff;
 }
 
-/** Handsontable **/
-
-/* All headers */
-.ht_clone_top.handsontable th {
-  background-color: #0d8241;
-  color: #fff;
-  height: 30px;
-}
