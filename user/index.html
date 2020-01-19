@@ -294,24 +294,48 @@
                 </div>
             </div>
 
+
             <div class="row clearfix its-upload-container">
-                <div class="col-lg-6 col-md-6" style="display: none;">
+                <div class="col-lg-12 col-md-12">
                     <div class="card">
                         <div class="body">
-                            <div class="d-flex align-items-center">
-                                <div class="icon-in-bg bg-indigo text-white rounded-circle"><i class="fa fa-briefcase"></i></div>
-                                <div class="ml-4">
-                                    <h3>Upload the Document</h3>
-                                    <h4 class="mb-0 font-weight-medium">Letraset sheets containing Lorem Ipsum passages</h4>                    
-                                </div>
-                                <!-- File Upload -->
-                            </div>
                             <div class="mt-4">
-                            <input type="file" class="dropify">
+                                <div class="row its-language-switcer">
+                                    <div class="col-md-5 mb-3"> 
+                                        <h4>Detected Language</h4>
+                          <select class="form-control form-control-xs selectpicker" name="" data-size="7" data-live-search="true" data-title="Location" id="state_list" data-width="100%">
+                            <option value="" selected>English</option>
+                            <option value="">Arabic</option>
+                            <option value="">French</option>
+                          </select>
+
+                                    </div>
+                                    <div class="col-md-1"><a href="#" title="swap language"> <i class="fa fa-exchange" aria-hidden="true"></i></a></div>
+                                    <div class="col-md-5"> 
+                                        <h4>Translated Language</h4>
+                          <select class="form-control form-control-xs selectpicker" name="" data-size="7" data-live-search="true" data-title="Location" id="state_list" data-width="100%">
+                            <option value="">English</option>
+                            <option value="" selected>Arabic</option>
+                            <option value="">French</option>
+                          </select>                                        
+                                    </div>
+                                </div>
+
+                                <div class="row its-language-switcer">
+                                    <div class="col-md-6">
+                                      <textarea style="width: 100%;height: 400px;" class=""></textarea>  
+                                    </div>
+                                    <div class="col-md-6">
+                                      <textarea style="width: 100%;height: 400px;" class=""></textarea>  
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="row clearfix its-upload-container">
                 <div class="col-lg-6 col-md-6">
                     <div class="card">
                         <div class="body">
@@ -507,6 +531,6 @@
 <script src="../assets/bundles/libscripts.bundle.js"></script>
 <script src="../assets/bundles/vendorscripts.bundle.js"></script>
 <script src="../assets/bundles/mainscripts.bundle.js"></script>
-
+<script src="../assets/js/select.js"></script>
 </body>
 </html>
