@@ -585,3 +585,43 @@ select.selectpicker {
 .light_version .its-language-switcer .btn.btn-default{
 	border-radius: 0px;
 }
+
+
+/** Preview **/
+
+.its-preview-table{
+  min-height: 325px;
+  text-align: center;
+}
+
+
+
+.preview-center{
+  text-align: center !important;
+}
+
+.its-preview-table .table tr th{
+  background: none !important;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0px;
+}
+
+.its-preview-table .table tr td{
+  white-space: pre-line;
+}
+
+fieldset{
+      border: 1px solid #e1e8ed;
+      padding: 20px;
+      padding-bottom: 0px;
+      margin-bottom: 20px;
+}
+
+fieldset legend{
+  font-size: 15px;
+  width: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
