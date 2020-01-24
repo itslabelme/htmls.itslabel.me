@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<title>ITSLabel.me | User List</title>
+<title>ITSLabel.me | Register List</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -33,6 +33,9 @@
 <link rel="stylesheet" href="../assets/css/site.min.css">
 <link rel="stylesheet" href="../assets/css/color.css">
 <link rel="stylesheet" href="../assets/css/itslabel.css">
+
+<link rel="stylesheet" href="../assets/css/ad-search.css">
+
 
 </head>
 <body class="font-montserrat light_version">
@@ -251,8 +254,8 @@
                     <li class="header">Main</li>
                     <li><a href="index.html"><i class="icon-speedometer"></i><span>Dashboard</span></a></li>
                     <li><a href="page-profile.html"><i class="icon-user"></i><span>User Profile</span></a></li>
-                    <li class="active"><a href="user-list.html"><i class="icon-users"></i><span>User List</span></a></li>
-                    <li><a href="register-list.html"><i class="icon-users"></i><span>Register List</span></a></li>
+                    <li><a href="user-list.html"><i class="icon-users"></i><span>User List</span></a></li>
+                    <li class="active"><a href="register-list.html"><i class="icon-users"></i><span>Register List</span></a></li>
                     <li><a href="#"><i class="icon-user-follow"></i><span>Testimonials</span></a></li>
                     <li><a href="#"><i class="icon-wallet"></i><span>Invoices</span></a></li>
                     <li><a href="#"><i class="icon-speedometer"></i><span>Timeline</span></a></li>
@@ -294,26 +297,62 @@
             <div class="block-header">
                 <div class="row clearfix">
                     <div class="col-md-6 col-sm-12">
-                        <h2>User List</h2>
+                        <h2>Register List</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">It's Label</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">User List</li>
+                            <li class="breadcrumb-item active" aria-current="page">Register List</li>
                             </ol>
                         </nav>
                     </div>            
-                    <div class="col-md-6 col-sm-12 text-right hidden-xs">
-                        <a href="javascript:void(0);" class="btn btn-sm btn-primary" title="">Add New</a>
-                    </div>
                 </div>
             </div>
             <div class="row clearfix">
+
+                <div class="col-lg-12">
+                    <div class="input-group" id="adv-search">
+                        <input type="text" class="form-control" placeholder="Search for snippets" />
+                        <div class="input-group-btn">
+                            <div class="btn-group" role="group">
+                                <div class="dropdown dropdown-lg">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                                    <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                        <form class="form-horizontal" role="form">
+                                          <div class="form-group">
+                                            <label for="filter">Filter by</label>
+                                            <select class="form-control">
+                                                <option value="0" selected>All Snippets</option>
+                                                <option value="1">Featured</option>
+                                                <option value="2">Most popular</option>
+                                                <option value="3">Top rated</option>
+                                                <option value="4">Most commented</option>
+                                            </select>
+                                          </div>
+                                          <div class="form-group">
+                                            <label for="contain">Author</label>
+                                            <input class="form-control" type="text" />
+                                          </div>
+                                          <div class="form-group">
+                                            <label for="contain">Contains the words</label>
+                                            <input class="form-control" type="text" />
+                                          </div>
+                                          <div class="its-mright">
+                                            <button type="submit" class="btn btn-primary">Reset</button>
+                                            <button type="submit" class="btn btn-primary">Search</button>
+                                          </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-primary"><i class="icon-magnifier"></i></button>
+                            </div>
+                        </div>
+                    </div>
+        
+
+                </div>
+
                 <div class="col-lg-12">
                     <div class="card">
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item"><a class="nav-link active show" data-toggle="tab" href="#Users">Users</a></li>
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#addUser">Add User</a></li>        
-                        </ul>
                         <div class="tab-content mt-0">
                             <div class="tab-pane active show" id="Users">
                                 <div class="table-responsive">
@@ -328,16 +367,6 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>
-                                                    <h6 class="mb-0">Admin</h6>
-                                                    <span>admin@gmail.com</span>
-                                                </td>
-                                                <td><span class="badge badge-danger">Super Admin</span></td>
-                                                <td>24 Jun, 2015</td>
-                                                <td>CEO and Founder</td>
-                                                <td></td>
-                                            </tr>
                                             <tr>
                                                 <td>
                                                     <h6 class="mb-0">Susie Willis</h6>
