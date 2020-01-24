@@ -3,7 +3,7 @@ a{
 }
 
 a:hover{
-	color: #6e62f6;
+	color: #1dc166;
 }
 
 
@@ -15,6 +15,11 @@ a:hover{
 
 .btn-primary:hover{
     background-color: #1dc166;
+    border-color: #1dc166;	
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+	background-color: #1dc166;
     border-color: #1dc166;	
 }
 
@@ -100,3 +105,26 @@ a:hover{
 .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus{
 	background:  #0d8241 !important;
 }
+
+.its-login-social li{
+	border:1px solid #0d8241;
+	background:  #0d8241;
+}
+
+.its-login-social li:hover{
+	background:  #1dc166;
+	border-color: #1dc166;
+}
+
+.its-login-social li:hover,
+.its-login-social li:hover button i,
+.its-login-social li:hover button{
+  color: #fff !important;
+}
+
+.its-login-social li,
+.its-login-social li button i,
+.its-login-social li button{
+  color: #fff !important;
+}
+  
