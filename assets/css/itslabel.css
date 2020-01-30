@@ -213,6 +213,7 @@
 
 
 .its-language-switcer textarea{
+  border: 1px solid #d3d9df;
 	border-color: #d3d9df;
 }
 

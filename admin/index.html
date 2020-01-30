@@ -29,11 +29,13 @@
 <link rel="stylesheet" href="../assets/vendor/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="../assets/vendor/animate-css/vivify.min.css">
 
-<link rel="stylesheet" href="../assets/vendor/c3/c3.min.css"/>
+<!-- Date Picker -->
+<link rel="stylesheet" href="../assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
 
 <!-- MAIN CSS -->
 <link rel="stylesheet" href="../assets/css/site.min.css">
 <link rel="stylesheet" href="../assets/css/color.css">
+<link rel="stylesheet" href="../assets/css/ad-search.css">
 <link rel="stylesheet" href="../assets/css/itslabel.css">
 
 </head>
@@ -362,56 +364,7 @@
                 </div>
             </div>
 
-            <div class="row clearfix">
-                <div class="col-lg-4 col-md-12">
-                    <div class="card">
-                        <div class="header">
-                            <h2>Users</h2>
-                        </div>
-                        <div class="body">
-                            <div class="row text-center">
-                                <div class="col-6 border-right pb-4 pt-4">
-                                    <label class="mb-0">New Users</label>
-                                    <h4 class="font-30 font-weight-bold text-col-blue">2,025</h4>
-                                </div>
-                                <div class="col-6 pb-4 pt-4">
-                                    <label class="mb-0">Return Visitors</label>
-                                    <h4 class="font-30 font-weight-bold text-col-blue">1,254</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="body">
-                            <div class="form-group">
-                                <label class="d-block">New Users <span class="float-right">77%</span></label>
-                                <div class="progress progress-xxs">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width: 77%;"></div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="d-block">Return Visitors <span class="float-right">50%</span></label>
-                                <div class="progress progress-xxs">
-                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="d-block">Engagement <span class="float-right">23%</span></label>
-                                <div class="progress progress-xxs">
-                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100" style="width: 23%;"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-md-12">
-                    <div class="card user_statistics">
-                        <div class="header">
-                            <h2>Earning Report</h2>
-                        </div>
-                        <div class="body">                            
-                            <div id="chart-bar" style="height: 302px"></div>
-                        </div>
-                    </div>
-                </div>                
+            <div class="row clearfix">               
                 <div class="col-lg-8 col-md-12">
                     <div class="table-responsive">
                         <table class="table table-hover table-custom spacing5">
@@ -431,8 +384,7 @@
                                     </td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <div class="avtar-pic w35 bg-red" data-toggle="tooltip" data-placement="top" title="Avatar Name"><span>SS</span></div>
-                                            <div class="ml-3">
+                                            <div class="ml-0">
                                                 <a href="#" title="">South Shyanne</a>
                                                 <p class="mb-0">south.shyanne@example.com</p>
                                             </div>
@@ -452,8 +404,7 @@
                                     </td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="../assets/images/xs/avatar2.jpg" data-toggle="tooltip" data-placement="top" title="Avatar Name" alt="Avatar" class="w35 h35 rounded">
-                                            <div class="ml-3">
+                                            <div class="ml-0">
                                                 <a href="javascript:void(0);" title="">Zoe Baker</a>
                                                 <p class="mb-0">zoe.baker@example.com</p>
                                             </div>
@@ -473,8 +424,7 @@
                                     </td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                                <div class="avtar-pic w35 bg-indigo" data-toggle="tooltip" data-placement="top" title="Avatar Name"><span>CB</span></div>
-                                            <div class="ml-3">
+                                            <div class="ml-0">
                                                 <a href="javascript:void(0);" title="">Colin Brown</a>
                                                 <p class="mb-0">colinbrown@example.com</p>
                                             </div>
@@ -494,8 +444,7 @@
                                     </td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <div class="avtar-pic w35 bg-green" data-toggle="tooltip" data-placement="top" title="Avatar Name"><span>KG</span></div>
-                                            <div class="ml-3">
+                                            <div class="ml-0">
                                                 <a href="javascript:void(0);" title="">Kevin Gill</a>
                                                 <p class="mb-0">kevin.gill@example.com</p>
                                             </div>
@@ -515,8 +464,7 @@
                                     </td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="../assets/images/xs/avatar5.jpg" data-toggle="tooltip" data-placement="top" title="Avatar Name" alt="Avatar" class="w35 h35 rounded">
-                                            <div class="ml-3">
+                                            <div class="ml-0">
                                                 <a href="javascript:void(0);" title="">Brandon Smith</a>
                                                 <p class="mb-0">Maria.gill@example.com</p>
                                             </div>
@@ -536,8 +484,7 @@
                                     </td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="../assets/images/xs/avatar6.jpg" data-toggle="tooltip" data-placement="top" title="Avatar Name" alt="Avatar" class="w35 h35 rounded">
-                                            <div class="ml-3">
+                                            <div class="ml-0">
                                                 <a href="javascript:void(0);" title="">Kevin Baker</a>
                                                 <p class="mb-0">kevin.baker@example.com</p>
                                             </div>
@@ -557,8 +504,7 @@
                                     </td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <img src="../assets/images/xs/avatar2.jpg" data-toggle="tooltip" data-placement="top" title="Avatar Name" alt="Avatar" class="w35 h35 rounded">
-                                            <div class="ml-3">
+                                            <div class="ml-0">
                                                 <a href="javascript:void(0);" title="">Zoe Baker</a>
                                                 <p class="mb-0">zoe.baker@example.com</p>
                                             </div>
@@ -638,13 +584,15 @@
     
 </div>
 
+
 <!-- Javascript -->
 <script src="../assets/bundles/libscripts.bundle.js"></script>
 <script src="../assets/bundles/vendorscripts.bundle.js"></script>
 
-<script src="../assets/bundles/c3.bundle.js"></script>
+<!-- Date Picker -->
+<script src="../assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
 
 <script src="../assets/bundles/mainscripts.bundle.js"></script>
-<script src="../assets/js/index.js"></script>
+
 </body>
 </html>
