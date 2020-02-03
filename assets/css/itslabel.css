@@ -696,3 +696,15 @@ fieldset legend{
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus{
   box-shadow: none;
 }
+
+
+.pricing .plan-img img{
+  max-width: 100% !important;
+}
+
+/** Toggle Button **/
+
+.custom-control-input:checked~.custom-control-label::before{
+  border-color: #0d8241;
+  background-color: #0d8241;
+}
