@@ -127,4 +127,26 @@ a:hover{
 .its-login-social li button{
   color: #fff !important;
 }
-  
+
+.badge-active{
+	background: #0d8241;
+	color: #fff;
+}
+
+.badge-inactive{
+	background: #dc3545;
+	color: #fff;
+	border-color: #dc3545;
+}
+
+.badge-removed{
+	background: #ffc107;
+	color: #fff;
+	border-color: #ffc107;
+}
+
+.badge-archived{
+	background: #a3a3a3;
+	color: #fff;
+	border-color: #a3a3a3;	
+}

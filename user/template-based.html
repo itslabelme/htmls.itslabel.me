@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-<title>ItsLabel | Profile</title>
+<title>ITSLabel.me | Home</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta name="description" content="">
+<meta name="keywords" content="">
 <meta name="author" content="">
-
 <link rel="apple-touch-icon" sizes="57x57" href="../assets/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="../assets/favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/apple-icon-72x72.png">
@@ -23,11 +23,19 @@
 <link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
 <meta name="msapplication-TileImage" content="../assets/favicon/ms-icon-144x144.png">
-
 <!-- VENDOR CSS -->
 <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="../assets/vendor/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="../assets/vendor/animate-css/vivify.min.css">
+
+<!-- Dropify File Upload -->
+<link rel="stylesheet" href="../assets/vendor/dropify/css/dropify.css">
+
+<!-- Tags -->
+<link rel="stylesheet" href="../assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.css">
+
+<!-- Handontable -->
+<link rel="stylesheet" href="../assets/vendor/handsontable/handsontable.full.min.css">
 
 <!-- Date Picker -->
 <link rel="stylesheet" href="../assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
@@ -35,6 +43,7 @@
 <!-- MAIN CSS -->
 <link rel="stylesheet" href="../assets/css/site.min.css">
 <link rel="stylesheet" href="../assets/css/color.css">
+<link rel="stylesheet" href="../assets/css/its-nf.css">
 <link rel="stylesheet" href="../assets/css/itslabel.css">
 
 </head>
@@ -52,6 +61,7 @@
     </div>
 </div>
 
+
 <!-- Overlay For Sidebars -->
 <div class="overlay"></div>
 
@@ -63,7 +73,7 @@
 
             <div class="navbar-left">
                 <div class="navbar-btn">
-                    <a href="index.html"><img src="../assets/images/itsme-logo.png" alt="itslabel" class="img-fluid logo"></a>
+                    <a href="home.html"><img src="../assets/images/itsme-logo.png" alt="itslabel" class="img-fluid logo"></a>
                     <button type="button" class="btn-toggle-offcanvas"><i class="lnr lnr-menu fa fa-bars"></i></button>
                 </div>
             </div>
@@ -150,7 +160,7 @@
                         <input type="text" class="form-control" placeholder="Search...">
                         <div class="input-group-append">
                             <span class="input-group-text"><i class="icon-magnifier"></i></span>
-                            <a href="javascript:void(0);" class="search_toggle btn bg-green"><i class="icon-close"></i></a>
+                            <a href="javascript:void(0);" class="search_toggle btn btn-danger bg-green"><i class="icon-close"></i></a>
                         </div>
                     </div>
                 </form>
@@ -231,7 +241,7 @@
 
     <div id="left-sidebar" class="sidebar">
         <div class="navbar-brand">
-            <a href="index.html"><img src="../assets/images/itsme-logo.png" alt="ItsLabel" class="img-fluid logo"></a>
+            <a href="home.html"><img src="../assets/images/itsme-logo.png" alt="ItsLabel" class="img-fluid logo"></a>
             <button type="button" class="btn-toggle-offcanvas btn btn-sm float-right"><i class="lnr lnr-menu icon-close"></i></button>
         </div>
         <div class="sidebar-scroll">
@@ -246,33 +256,33 @@
             </div>  
             <nav id="left-sidebar-nav" class="sidebar-nav">
                 <ul id="main-menu" class="metismenu">
-                        <li class="active"><a href="index.html"><i class="icon-speedometer"></i><span>Home</span></a></li>
+                        <li class="active"><a href="home.html"><i class="icon-speedometer"></i><span>Home</span></a></li>
                         <li class="header">Translation Documents</li>
                         <li>
-                            <a href="#" class="has-arrow"><i class="fa fa-plus"></i><span>New Translation</span></a>
+                            <a href="#" class="has-arrow"><i class="icon-plus"></i><span>New Translation</span></a>
                             <ul>
-                                <li><a href="import-data.html">Text Based</a></li>
-                                <li><a href="select-template.html">Template Based</a></li>
+                                <li><a href="template-based.html"> Template Based</a></li>
+                                <li><a href="table-based.html">Table Based </a></li>
                             </ul>
                         </li>
-                        <li><a href="document-list.html"><i class="icon-folder"></i><span>All Translation</span></a></li>
-                        <li><a href="recent.html"><i class="icon-clock"></i><span>Recent Translation</span></a></li>
-                        <li><a href="favorite.html"><i class="fa fa-star"></i><span>Favorites</span></a></li>
-                        <li><a href="trash.html"><i class="icon-trash"></i><span>Trash</span></a></li>
+                        <li><a href="documents.html"><i class="icon-folder"></i><span>All Translations </span></a></li>
+                        <li><a href="templates.html"><i class="icon-clock"></i><span>Recent</span></a></li>
+                        <li><a href="documents.html"><i class="icon-star"></i><span>Favorites</span></a></li>
+                        <li><a href="documents.html"><i class="icon-trash"></i><span>Trash</span></a></li>
 
                         <li class="header">Tags</li>
                         
-                        <li><a href="document-list.html"><i class="icon-tag"></i><span>Marmite (2019)</span></a></li>
-                        <li><a href="document-list.html"><i class="icon-tag"></i><span>Marmite (2018)</span></a></li>
-                        <li><a href="document-list.html"><i class="icon-tag"></i><span>Marmite (2017)</span></a></li>
-                        <li><a href="document-list.html"><i class="icon-tag"></i><span>Gulf Food</span></a></li>
-                        <li><a href="document-list.html"><i class="icon-tag"></i><span>Colmans Mustard</span></a></li>
+                        <li><a href="documents.html"><i class="icon-tag"></i><span>Marmite (2019)</span></a></li>
+                        <li><a href="documents.html"><i class="icon-tag"></i><span>Marmite (2018)</span></a></li>
+                        <li><a href="documents.html"><i class="icon-tag"></i><span>Marmite (2017)</span></a></li>
+                        <li><a href="documents.html"><i class="icon-tag"></i><span>Gulf Food</span></a></li>
+                        <li><a href="documents.html"><i class="icon-tag"></i><span>Colmans Mustard</span></a></li>
 
                         <li class="header">Main</li>
                         
-                        <li><a href="page-profile.html"><i class="icon-user"></i><span>My Profile</span></a></li>
-                        <li><a href="settings.html"><i class="icon-settings"></i><span>Settings</span></a></li>
-                        <li><a href="login.html"><i class="icon-logout"></i><span>Logout</span></a></li>
+                        <li><a href="client-profile.html"><i class="icon-user"></i><span>My Profile</span></a></li>
+                        <li><a href="#"><i class="icon-settings"></i><span>Settings</span></a></li>
+                        <li><a href="#"><i class="icon-logout"></i><span>Logout</span></a></li>
                 </ul>
             </nav>     
         </div>
@@ -280,40 +290,107 @@
 
     <!-- End Left Sidebar -->
 
+
+    <!-- Main Content -->
+
     <div id="main-content">
         <div class="container-fluid">
             <div class="block-header">
                 <div class="row clearfix">
                     <div class="col-md-6 col-sm-12">
-                        <h2>Settings</h2>
+                        <h1>Select Template</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">It's Label</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Settings</li>
+                            <li class="breadcrumb-item"><a href="#">Its Label</a></li>
+                            <li class="breadcrumb-item active">Select Template</li>
                             </ol>
                         </nav>
-                    </div> 
+                    </div>   
                 </div>
             </div>
-            <div class="row clearfix">          
 
-
-                <div class="col-xl-12 col-lg-12 col-md-12">
+            <div class="row clearfix">
+                <div class="col-lg-3 cool-md-3 col-sm-12">
                     <div class="card">
-                        <div class="body">
-                            <div class="row clearfix" style="text-align: center;">
-
-                                <h5 class="p-10">To be Designed...</h5>
-
-
-                            </div>
-                        </div>
+                        <ul class="pricing body">
+                            <li class="plan-img"><img class="img-fluid" src="../assets/images/itsme-sample-nutrition-fact.jpg" alt="" /></li>
+                            <li>Ingredients Template 1234</li>
+                            <li>Redesigned from scratch and completely revised.</li>
+                            <li class="plan-btn">
+                                <div class="fancy-checkbox">
+                                    <label>
+                                        <input type="checkbox"  onclick="window.location.href = 'customize.html';">
+                                            <span>Select</span>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+                <div class="col-lg-3 cool-md-3 col-sm-12">
+                    <div class="card">
+                        <ul class="pricing body">
+                            <li class="plan-img"><img class="img-fluid" src="../assets/images/itsme-sample-nutrition-fact-t2.jpg" alt="" /></li>
+                            <li>Ingredients Template 1234</li>
+                            <li>Redesigned from scratch and completely revised.</li>
+                            <li class="plan-btn">
+                                <div class="fancy-checkbox">
+                                    <label>
+                                        <input type="checkbox"  onclick="window.location.href = 'customize.html';">
+                                            <span>Select</span>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 cool-md-3 col-sm-12">
+                    <div class="card">
+                        <ul class="pricing body">
+                            <li class="plan-img"><img class="img-fluid" src="../assets/images/itsme-sample-nutrition-fact-t3.jpg" alt="" /></li>
+                            <li>Ingredients Template 1234</li>
+                            <li>Redesigned from scratch and completely revised.</li>
+                            <li class="plan-btn">
+                                <div class="fancy-checkbox">
+                                    <label>
+                                        <input type="checkbox"  onclick="window.location.href = 'customize.html';">
+                                            <span>Select</span>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 cool-md-3 col-sm-12">
+                    <div class="card">
+                        <ul class="pricing body">
+                            <li class="plan-img"><img class="img-fluid" src="../assets/images/itsme-sample-nutrition-fact-t4.jpg" alt="" /></li>
+                            <li>Ingredients Template 1234</li>
+                            <li>Redesigned from scratch and completely revised.</li>
+                            <li class="plan-btn">
+                                <div class="fancy-checkbox">
+                                    <label>
+                                        <input type="checkbox"  onclick="window.location.href = 'customize.html';">
+                                            <span>Select</span>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
             </div>
+
+
+
+
         </div>
     </div>
 
+    <!-- End Main Content -->
+    
 </div>
 
 <!-- Javascript -->

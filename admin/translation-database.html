@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<title>ITSLabel.me | User List</title>
+<title>ITSLabel.me | Register List</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -38,6 +38,9 @@
 <link rel="stylesheet" href="../assets/css/ad-search.css">
 <link rel="stylesheet" href="../assets/css/itslabel.css">
 
+
+
+
 </head>
 <body class="font-montserrat light_version">
 
@@ -64,7 +67,7 @@
     
                 <div class="navbar-left">
                     <div class="navbar-btn">
-                        <a href="index.html"><img src="../assets/images/itsme-logo.png" alt="itslabel" class="img-fluid logo"></a>
+                        <a href="home.html"><img src="../assets/images/itsme-logo.png" alt="itslabel" class="img-fluid logo"></a>
                         <button type="button" class="btn-toggle-offcanvas"><i class="lnr lnr-menu fa fa-bars"></i></button>
                     </div>
                 </div>
@@ -230,7 +233,7 @@
 
     <div id="left-sidebar" class="sidebar">
         <div class="navbar-brand">
-            <a href="index.html"><img src="../assets/images/itsme-logo.png" alt="ItsLabel" class="img-fluid logo"></a>
+            <a href="home.html"><img src="../assets/images/itsme-logo.png" alt="ItsLabel" class="img-fluid logo"></a>
             <button type="button" class="btn-toggle-offcanvas btn btn-sm float-right"><i class="lnr lnr-menu icon-close"></i></button>
         </div>
         <div class="sidebar-scroll">
@@ -252,42 +255,23 @@
             </div>  
             <nav id="left-sidebar-nav" class="sidebar-nav">
                 <ul id="main-menu" class="metismenu">
-                    <li class="header">Main</li>
-                    <li><a href="index.html"><i class="icon-speedometer"></i><span>Dashboard</span></a></li>
-                    <li><a href="page-profile.html"><i class="icon-user"></i><span>User Profile</span></a></li>
-                    <li class="active"><a href="user-list.html"><i class="icon-users"></i><span>User List</span></a></li>
-                    <li><a href="register-list.html"><i class="icon-users"></i><span>Register List</span></a></li>
-                    <li><a href="#"><i class="icon-user-follow"></i><span>Testimonials</span></a></li>
-                    <li><a href="#"><i class="icon-wallet"></i><span>Invoices</span></a></li>
-                    <li><a href="#"><i class="icon-speedometer"></i><span>Timeline</span></a></li>
-                    <li><a href="#"><i class="icon-wallet"></i><span>Pricing</span></a></li>
+                    <li class="header">Admin</li>
+                    <li class="active"><a href="home.html"><i class="icon-speedometer"></i><span>Home</span></a></li>
+                    <li><a href="registrations.html"><i class="icon-users"></i><span>Registrations</span></a></li>
+                    <li><a href="translation-database.html"><i class="icon-folder"></i><span>Translation Database</span></a></li>
+                    <li><a href="templates.html"><i class="icon-folder"></i><span>Templates</span></a></li>
+                    <li><a href="user-list.html"><i class="icon-users"></i><span>Admin Users</span></a></li>
+
+                    <li class="header">Reports</li>
+                    <li><a href="#"><i class="icon-book-open"></i><span>Report 01</span></a></li>
+                    <li><a href="#"><i class="icon-book-open"></i><span>Report 02</span></a></li>
+                    <li><a href="#"><i class="icon-book-open"></i><span>Report 03</span></a></li>
                     
-                    <li class="header">App</li>
-                    <li>
-                        <a href="#Contact" class="has-arrow"><i class="icon-book-open"></i><span>Contact</span></a>
-                        <ul>
-                            <li><a href="#">List View</a></li>
-                            <li><a href="#">Grid View</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><i class="icon-envelope"></i><span>Email</span></a></li>
-                    <li><a href="#"><i class="icon-bubbles"></i><span>Messenger</span></a></li>
-                    <li>
-                        <a href="#Project" class="has-arrow"><i class="icon-bubbles"></i><span>Project</span></a>
-                        <ul>
-                            <li><a href="#">Taskboard</a></li>
-                            <li><a href="#">Project list</a></li>
-                            <li><a href="#">Ticket List</a></li>
-                            <li><a href="#">Ticket Details</a></li>
-                            <li><a href="#">Clients</a></li>
-                            <li><a href="#">Todo List</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><i class="icon-calendar"></i><span>Calendar</span></a></li>
 
-
-                    <li class="header">Extra</li>                    
-                    <li><a href="#"><i class="icon-doc"></i><span>Documentation</span></a></li>
+                    <li class="header">My Account</li>
+                    <li><a href="page-profile.html"><i class="icon-user"></i><span>My Profile</span></a></li>
+                    <li><a href="settings.html"><i class="icon-settings"></i><span>Settings</span></a></li>
+                    <li><a href="login.html"><i class="icon-logout"></i><span>Logout</span></a></li>
                 </ul>
             </nav>     
         </div>
@@ -298,85 +282,163 @@
             <div class="block-header">
                 <div class="row clearfix">
                     <div class="col-md-6 col-sm-12">
-                        <h2>User List</h2>
+                        <h2>Register List</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">It's Label</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">User List</li>
+                            <li class="breadcrumb-item active" aria-current="page">Register List</li>
                             </ol>
                         </nav>
                     </div>            
-                    <div class="col-md-6 col-sm-12 text-right hidden-xs">
-                        <a href="javascript:void(0);" class="btn btn-sm btn-primary" title="">Add New</a>
-                    </div>
                 </div>
             </div>
             <div class="row clearfix">
+
+                <div class="col-lg-12">
+                    <div class="input-group" id="adv-search">
+                        <input type="text" class="form-control" placeholder="Search..." />
+                        <div class="input-group-btn">
+                            <div class="btn-group" role="group">
+                                <div class="dropdown dropdown-lg">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                                    <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                        <form class="form-horizontal" role="form">
+
+<div class="row">
+    <div class="col-md-2">
+
+                                          <div class="form-group">
+                                            <label for="filter">Tag</label>
+                                            <select class="form-control">
+                                                <option value="0" selected>All Tags</option>
+                                                <option value="1">Tag 01</option>
+                                                <option value="2">Tag 02</option>
+                                                <option value="3">Tag 03</option>
+                                            </select>
+                                          </div>        
+
+
+    </div>
+    <div class="col-md-2">
+                                          <div class="form-group">
+                                            <label for="filter">Input Language</label>
+                                            <select class="form-control">
+                                                <option value="0" selected>All Language</option>
+                                                <option value="1">English</option>
+                                                <option value="2">Arabic</option>
+                                                <option value="3">French</option>
+                                            </select>
+                                          </div>        
+
+    </div>
+    <div class="col-md-2">
+                                          <div class="form-group">
+                                            <label for="filter">Output Language</label>
+                                            <select class="form-control">
+                                                <option value="0" selected>All Language</option>
+                                                <option value="1">English</option>
+                                                <option value="2">Arabic</option>
+                                                <option value="3">French</option>
+                                            </select>
+                                          </div>        
+    </div>
+    <div class="col-md-2">
+                                          <div class="form-group">
+                                            <label for="filter">Status</label>
+                                            <select class="form-control">
+                                                <option value="0" selected>All</option>
+                                                <option value="1">Active</option>
+                                                <option value="2">Inactive</option>
+                                                <option value="3">Removed</option>
+                                                <option value="4">Archived</option>
+                                            </select>
+                                          </div>        
+    </div>
+    <div class="col-md-2">
+                                          <div class="form-group">
+                                            <label for="filter">Type of Document</label>
+                                            <select class="form-control">
+                                                <option value="0" selected>All</option>
+                                                <option value="1">Table Based</option>
+                                                <option value="2">Template Based</option>
+                                            </select>
+                                          </div>         
+    </div>
+
+    <div class="col-md-2">
+                                          <div class="form-group">
+                                            <label for="filter">Template</label>
+                                            <select class="form-control">
+                                                <option value="0" selected>All</option>
+                                                <option value="1">Table Based</option>
+                                                <option value="2">Template Based</option>
+                                            </select>
+                                          </div>         
+    </div>
+
+</div>  
+
+
+
+
+                                          <div class="its-mright">
+                                            <button type="submit" class="btn btn-primary">Reset</button>
+                                            <button type="submit" class="btn btn-primary">Search</button>
+                                          </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-primary"><i class="icon-magnifier"></i></button>
+                            </div>
+                        </div>
+                    </div>
+        
+
+                </div>
+
                 <div class="col-lg-12">
                     <div class="card">
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item"><a class="nav-link active show" data-toggle="tab" href="#Users">Users</a></li>
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#addUser">Add User</a></li>        
-                        </ul>
                         <div class="tab-content mt-0">
                             <div class="tab-pane active show" id="Users">
                                 <div class="table-responsive">
                                     <table class="table table-hover table-custom spacing8">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
-                                                <th></th>
-                                                <th>Created Date</th>
-                                                <th>Role</th>
-                                                <th class="w100">Action</th>
+                                                <th style="width: 5%;">#</th>
+                                                <th style="width: 10%">Name</th>
+                                                <th style="width: 5%">Document Type</th>
+                                                <th style="width: 20%">Input Language</th>
+                                                <th style="width: 20%">Output Language </th>
+                                                <th style="width: 40%">Tags</th>
+                                                <th>Status</th>
+                                                <th class="w100">
+                                                Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
+                                                <td>01</td>
                                                 <td>
-                                                    <h6 class="mb-0">Admin</h6>
-                                                    <span>admin@gmail.com</span>
+                                                    <h6 class="mb-1">Sample Document 6</h6>
                                                 </td>
-                                                <td><span class="badge badge-danger">Super Admin</span></td>
-                                                <td>24 Jun, 2015</td>
-                                                <td>CEO and Founder</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h6 class="mb-0">Susie Willis</h6>
-                                                    <span>sussie-w@gmail.com</span>
+                                                <td>Table</td>
+                                                <td>EN</td>
+                                                <td class="itslabel-olang">
+                                                      <ul>
+                                                        <li>Ar</li>
+                                                        <li>Fr</li>
+                                                        <li>Es</li>
+                                                        <li>Pt</li>
+                                                        <li>De</li>
+                                                      </ul> 
                                                 </td>
-                                                <td><span class="badge badge-info">Admin</span></td>
-                                                <td>28 Jun, 2015</td>
-                                                <td>Team Lead</td>
 
+                                                <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-sm btn-default" title="Edit"><i class="fa fa-edit"></i></button>
-                                                    <button type="button" class="btn btn-sm btn-default js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash-o text-danger"></i></button>
+                                                    <span class="badge badge-info badge-active">Active</span>
                                                 </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h6 class="mb-0">Debra Stewart</h6>
-                                                    <span>debra@gmail.com</span>
-                                                </td>
-                                                <td><span class="badge badge-info">Admin</span></td>
-                                                <td>21 July, 2015</td>
-                                                <td>Team Lead</td>
-                                                <td>
-                                                    <button type="button" class="btn btn-sm btn-default" title="Edit"><i class="fa fa-edit"></i></button>
-                                                    <button type="button" class="btn btn-sm btn-default js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash-o text-danger"></i></button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h6 class="mb-0">Erin Gonzales</h6>
-                                                    <span>Erinonzales@gmail.com</span>
-                                                </td>
-                                                <td><span class="badge badge-default">Employee</span></td>
-                                                <td>21 July, 2015</td>
-                                                <td>Web Developer</td>
+
+
                                                 <td>
                                                     <button type="button" class="btn btn-sm btn-default" title="Edit"><i class="fa fa-edit"></i></button>
                                                     <button type="button" class="btn btn-sm btn-default js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash-o text-danger"></i></button>
@@ -384,13 +446,24 @@
                                             </tr>
 
                                             <tr>
+                                                <td>02</td>
                                                 <td>
-                                                    <h6 class="mb-0">Erin Gonzales</h6>
-                                                    <span>Erinonzales@gmail.com</span>
+                                                    <h6 class="mb-0">Sample Document 6</h6>
                                                 </td>
-                                                <td><span class="badge badge-default">Employee</span></td>
-                                                <td>21 July, 2015</td>
-                                                <td>Web Developer</td>
+                                                <td>Template</td>
+                                                <td>EN</td>
+                                                <td class="itslabel-olang">
+                                                      <ul>
+                                                        <li>Ar</li>
+                                                      </ul> 
+                                                </td>
+
+                                                <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                                <td>
+                                                    <span class="badge badge-info badge-inactive">In Active</span>
+                                                </td>
+
+
                                                 <td>
                                                     <button type="button" class="btn btn-sm btn-default" title="Edit"><i class="fa fa-edit"></i></button>
                                                     <button type="button" class="btn btn-sm btn-default js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash-o text-danger"></i></button>
@@ -398,13 +471,24 @@
                                             </tr>
 
                                             <tr>
+                                                <td>02</td>
                                                 <td>
-                                                    <h6 class="mb-0">Erin Gonzales</h6>
-                                                    <span>Erinonzales@gmail.com</span>
+                                                    <h6 class="mb-0">Sample Document 6</h6>
                                                 </td>
-                                                <td><span class="badge badge-default">Employee</span></td>
-                                                <td>21 July, 2015</td>
-                                                <td>Web Developer</td>
+                                                <td>Template</td>
+                                                <td>EN</td>
+                                                <td class="itslabel-olang">
+                                                      <ul>
+                                                        <li>Ar</li>
+                                                      </ul> 
+                                                </td>
+
+                                                <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                                <td>
+                                                    <span class="badge badge-info badge-removed">Removed </span>
+                                                </td>
+
+
                                                 <td>
                                                     <button type="button" class="btn btn-sm btn-default" title="Edit"><i class="fa fa-edit"></i></button>
                                                     <button type="button" class="btn btn-sm btn-default js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash-o text-danger"></i></button>
@@ -412,61 +496,30 @@
                                             </tr>
 
                                             <tr>
+                                                <td>02</td>
                                                 <td>
-                                                    <h6 class="mb-0">Erin Gonzales</h6>
-                                                    <span>Erinonzales@gmail.com</span>
+                                                    <h6 class="mb-0">Sample Document 6</h6>
                                                 </td>
-                                                <td><span class="badge badge-default">Employee</span></td>
-                                                <td>21 July, 2015</td>
-                                                <td>Web Developer</td>
+                                                <td>Template</td>
+                                                <td>EN</td>
+                                                <td class="itslabel-olang">
+                                                      <ul>
+                                                        <li>Ar</li>
+                                                      </ul> 
+                                                </td>
+
+                                                <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                                <td>
+                                                    <span class="badge badge-info badge-archived">Archived </span>
+                                                </td>
+
+
                                                 <td>
                                                     <button type="button" class="btn btn-sm btn-default" title="Edit"><i class="fa fa-edit"></i></button>
                                                     <button type="button" class="btn btn-sm btn-default js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash-o text-danger"></i></button>
                                                 </td>
                                             </tr>
 
-                                            <tr>
-                                                <td>
-                                                    <h6 class="mb-0">Erin Gonzales</h6>
-                                                    <span>Erinonzales@gmail.com</span>
-                                                </td>
-                                                <td><span class="badge badge-default">Employee</span></td>
-                                                <td>21 July, 2015</td>
-                                                <td>Web Developer</td>
-                                                <td>
-                                                    <button type="button" class="btn btn-sm btn-default" title="Edit"><i class="fa fa-edit"></i></button>
-                                                    <button type="button" class="btn btn-sm btn-default js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash-o text-danger"></i></button>
-                                                </td>
-                                            </tr>
-
-
-                                            <tr>
-                                                <td>
-                                                    <h6 class="mb-0">Erin Gonzales</h6>
-                                                    <span>Erinonzales@gmail.com</span>
-                                                </td>
-                                                <td><span class="badge badge-default">Employee</span></td>
-                                                <td>21 July, 2015</td>
-                                                <td>Web Developer</td>
-                                                <td>
-                                                    <button type="button" class="btn btn-sm btn-default" title="Edit"><i class="fa fa-edit"></i></button>
-                                                    <button type="button" class="btn btn-sm btn-default js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash-o text-danger"></i></button>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>
-                                                    <h6 class="mb-0">Erin Gonzales</h6>
-                                                    <span>Erinonzales@gmail.com</span>
-                                                </td>
-                                                <td><span class="badge badge-default">Employee</span></td>
-                                                <td>21 July, 2015</td>
-                                                <td>Web Developer</td>
-                                                <td>
-                                                    <button type="button" class="btn btn-sm btn-default" title="Edit"><i class="fa fa-edit"></i></button>
-                                                    <button type="button" class="btn btn-sm btn-default js-sweetalert" title="Delete" data-type="confirm"><i class="fa fa-trash-o text-danger"></i></button>
-                                                </td>
-                                            </tr>
                                         </tbody>
                                     </table>  
 

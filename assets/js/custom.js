@@ -1,4 +1,6 @@
-    $(document).ready(function() {
+/** Toggle Switch **/
+
+$(document).ready(function() {
     $('#customSwitches').change(function() {
         $('#mycheckboxdiv').toggle();
     });

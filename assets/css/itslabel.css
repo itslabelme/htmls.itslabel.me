@@ -143,11 +143,12 @@
 }
 
 .light_version .table tr td.its-tag span{
-	border: 1px solid #0d8241;
-	padding: 2px;
+	border: 1px solid #2f3338;
+	padding: 2px 5px;
 	margin: 3px;
 	border-radius: 5px;
 	float: left;
+  font-size: 12px;
 }
 
 .search_toggle.btn.bg-green i{
@@ -707,4 +708,44 @@ fieldset legend{
 .custom-control-input:checked~.custom-control-label::before{
   border-color: #0d8241;
   background-color: #0d8241;
+}
+
+/** Preview PAge **/
+
+.its-preview-intro .icon-in-bg{
+  width: 20%;
+  height: auto;
+  background: none !important;
+}
+
+.its-preview-intro img{
+  max-width: 100%;
+}
+
+.its-preview-intro h3{
+  font-size: 18px;
+}
+
+.itslabel-olang ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.itslabel-olang ul li{
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.itslabel-olang ul li:after{
+  content: "|";
+  margin-left: 8px;
+  margin-right: 5px;
+  position: relative;
+  top: -1px;
+}
+
+.itslabel-olang ul li:last-child:after{
+  display: none;
 }
