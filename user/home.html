@@ -54,6 +54,7 @@
 <link rel="stylesheet" href="../assets/css/its-nf.css">
 <link rel="stylesheet" href="../assets/css/ad-search.css">
 <link rel="stylesheet" href="../assets/css/itslabel.css">
+<link rel="stylesheet" href="../assets/css/its-arabic.css">
 
 </head>
 
@@ -261,7 +262,7 @@
                 </div>
                 <div class="dropdown">
                     <span>Welcome,</span>
-                    <a href="page-profile.html" class="user-name"><strong>Krishna</strong></a>
+                    <a href="client-profile.html" class="user-name"><strong>Krishna</strong></a>
                 </div>                
             </div>  
             <nav id="left-sidebar-nav" class="sidebar-nav">
@@ -271,7 +272,7 @@
                         <li>
                             <a href="#" class="has-arrow"><i class="icon-plus"></i><span>New Translation</span></a>
                             <ul>
-                                <li><a href="template-based.html"> Template Based</a></li>
+                                <li><a href="select-template.html"> Template Based</a></li>
                                 <li><a href="table-based.html">Table Based </a></li>
                             </ul>
                         </li>
@@ -436,13 +437,16 @@
                     <div class="table-responsive">
                         <table class="table table-hover table-custom spacing5">
                             <thead>
-                                <tr> 
-                                    <th style="width: 20px;">#</th>
-                                    <th>Document Name</th>
-                                    <th style="width: 50px;">Type</th>
-                                    <th style="width: 110px;">Action</th>
-                                </tr>
+                                <tr>
+                                    <th style="width: 5%;">#</th>
+                                    <th style="width: 25%;">Document Name</th>
+                                    <th style="width: 25%;">Document Type</th>
+                                    <th style="width: 15%;">Input Language</th>                                    
+                                    <th style="width: 15%;">Output Language</th>
+                                    <th style="width: 15%;">Action</th>
+                                  </tr>
                             </thead>
+
                             <tbody>
                                 <tr>
                                     <td>
@@ -450,91 +454,129 @@
                                     </td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="#" title="">New Label 90237</a>  
-                                            </div>
+                                            <div>Sample Document 01</div>
+                                        </div>
+                                    </td>
+                                    <td>Table</td>
+                    
+                                    <td>EN</td>
+                                    <td class="itslabel-olang">
+                                        <ul>
+                                          <li>Ar</li>
+                                          <li>Fr</li>
+                                          <li>Es</li>
+                                          <li>Pt</li>
+                                          <li>De</li>
+                                        </ul> 
+                                  </td>
+                                    <td>
+                                        <a class="btn btn-sm btn-default" data-remote="true" href="table-based-edit.html">
+                                            <i class="icon-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-sm btn-default" data-confirm="Are you sure? Do you really want to remove this translation?" data-remote="true" rel="nofollow" data-method="delete" href="/">
+                                            <i class="icon-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>02</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div>Sample Document 01</div>
                                         </div>
                                     </td>
                                     <td>Template</td>
+                                    <td>EN</td>
+                                    <td class="itslabel-olang">
+                                          <ul>
+                                            <li>Ar</li>
+                                          </ul> 
+                                    </td>
+
                                     <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Send Invoice" data-toggle="tooltip" data-placement="top"><i class="icon-envelope"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
+                                        <a class="btn btn-sm btn-default" data-remote="true" href="template-based-edit.html">
+                                            <i class="icon-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-sm btn-default" data-confirm="Are you sure? Do you really want to remove this translation?" data-remote="true" rel="nofollow" data-method="delete" href="/">
+                                            <i class="icon-trash"></i>
+                                        </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <span>02</span>
-                                    </td>
+                                    <td>03</td>
                                     <td>
                                         <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="javascript:void(0);" title="">Marmite Oct 2019</a>
-                                            </div>
-                                        </div>                                        
-                                    </td>
-                                    <td>Plain Text</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Send Invoice" data-toggle="tooltip" data-placement="top"><i class="icon-envelope"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span>03</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="javascript:void(0);" title="">New Label 189263</a>
-                                            </div>
-                                        </div>                                        
-                                    </td>
-                                    <td>Template</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Send Invoice" data-toggle="tooltip" data-placement="top"><i class="icon-envelope"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span>04</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="javascript:void(0);" title="">Robinson Foods</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>Plain Text</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Send Invoice" data-toggle="tooltip" data-placement="top"><i class="icon-envelope"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span>05</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="javascript:void(0);" title="">New Label 90456</a>
-                                            </div>
+                                            <div>Sample Document 01</div>
                                         </div>
                                     </td>
                                     <td>Template</td>
+                                    <td>EN</td>
+                                    <td class="itslabel-olang">
+                                          <ul>
+                                            <li>Ar</li>
+                                          </ul> 
+                                    </td>
+
                                     <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Send Invoice" data-toggle="tooltip" data-placement="top"><i class="icon-envelope"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
+                                        <a class="btn btn-sm btn-default" data-remote="true" href="template-based-edit.html">
+                                            <i class="icon-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-sm btn-default" data-confirm="Are you sure? Do you really want to remove this translation?" data-remote="true" rel="nofollow" data-method="delete" href="/">
+                                            <i class="icon-trash"></i>
+                                        </a>
                                     </td>
                                 </tr>
-                            </tbody>
+                                <tr>
+                                    <td>04</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div>Sample Document 01</div>
+                                        </div>
+                                    </td>
+                                    <td>Template</td>
+                                    <td>EN</td>
+                                    <td class="itslabel-olang">
+                                          <ul>
+                                            <li>Ar</li>
+                                          </ul> 
+                                    </td>
+
+                                    <td>
+                                        <a class="btn btn-sm btn-default" data-remote="true" href="template-based-edit.html">
+                                            <i class="icon-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-sm btn-default" data-confirm="Are you sure? Do you really want to remove this translation?" data-remote="true" rel="nofollow" data-method="delete" href="/">
+                                            <i class="icon-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>05</td>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            <div>Sample Document 01</div>
+                                        </div>
+                                    </td>
+                                    <td>Template</td>
+                                    <td>EN</td>
+                                    <td class="itslabel-olang">
+                                          <ul>
+                                            <li>Ar</li>
+                                          </ul> 
+                                    </td>
+
+                                    <td>
+                                        <a class="btn btn-sm btn-default" data-remote="true" href="template-based-edit.html">
+                                            <i class="icon-pencil"></i>
+                                        </a>
+                                        <a class="btn btn-sm btn-default" data-confirm="Are you sure? Do you really want to remove this translation?" data-remote="true" rel="nofollow" data-method="delete" href="/">
+                                            <i class="icon-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>                            
+
+
                         </table>
                     </div>
                 </div>  

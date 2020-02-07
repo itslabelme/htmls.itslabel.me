@@ -52,6 +52,7 @@
 <link rel="stylesheet" href="../assets/css/site.min.css">
 <link rel="stylesheet" href="../assets/css/color.css">
 <link rel="stylesheet" href="../assets/css/its-nf.css">
+
 <link rel="stylesheet" href="../assets/css/ad-search.css">
 <link rel="stylesheet" href="../assets/css/itslabel.css">
 
@@ -169,7 +170,7 @@
                         <input type="text" class="form-control" placeholder="Search...">
                         <div class="input-group-append">
                             <span class="input-group-text"><i class="icon-magnifier"></i></span>
-                            <a href="javascript:void(0);" class="search_toggle btn btn-danger bg-green"><i class="icon-close"></i></a>
+                            <a href="javascript:void(0);" class="search_toggle btn bg-green"><i class="icon-close"></i></a>
                         </div>
                     </div>
                 </form>
@@ -260,7 +261,7 @@
                 </div>
                 <div class="dropdown">
                     <span>Welcome,</span>
-                    <a href="page-profile.html" class="user-name"><strong>Krishna</strong></a>
+                    <a href="client-profile.html" class="user-name"><strong>Krishna</strong></a>
                 </div>                
             </div>  
             <nav id="left-sidebar-nav" class="sidebar-nav">
@@ -270,7 +271,7 @@
                         <li>
                             <a href="#" class="has-arrow"><i class="icon-plus"></i><span>New Translation</span></a>
                             <ul>
-                                <li><a href="template-based.html"> Template Based</a></li>
+                                <li><a href="select-template.html">Template Based</a></li>
                                 <li><a href="table-based.html">Table Based </a></li>
                             </ul>
                         </li>
@@ -307,92 +308,83 @@
             <div class="block-header">
                 <div class="row clearfix">
                     <div class="col-md-6 col-sm-12">
-                        <h1>Select Template</h1>
+                        <h1>Edit Table Based</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">Its Label</a></li>
-                            <li class="breadcrumb-item active">Select Template</li>
+                            <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="table-based.html">Table Based</a></li>
+                            <li class="breadcrumb-item active">Edit Table Based</li>
                             </ol>
                         </nav>
                     </div>   
                 </div>
             </div>
 
+
             <div class="row clearfix">
-                <div class="col-lg-3 cool-md-3 col-sm-12">
+                <div class="col-lg-12 col-md-12">
                     <div class="card">
-                        <ul class="pricing body">
-                            <li class="plan-img"><img class="img-fluid" src="../assets/images/itsme-sample-nutrition-fact.jpg" alt="" /></li>
-                            <li>Ingredients Template 1234</li>
-                            <li>Redesigned from scratch and completely revised.</li>
-                            <li class="plan-btn">
-                                <div class="fancy-checkbox">
-                                    <label>
-                                        <input type="checkbox"  onclick="window.location.href = 'customize.html';">
-                                            <span>Select</span>
-                                    </label>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 cool-md-3 col-sm-12">
-                    <div class="card">
-                        <ul class="pricing body">
-                            <li class="plan-img"><img class="img-fluid" src="../assets/images/itsme-sample-nutrition-fact-t2.jpg" alt="" /></li>
-                            <li>Ingredients Template 1234</li>
-                            <li>Redesigned from scratch and completely revised.</li>
-                            <li class="plan-btn">
-                                <div class="fancy-checkbox">
-                                    <label>
-                                        <input type="checkbox"  onclick="window.location.href = 'customize.html';">
-                                            <span>Select</span>
-                                    </label>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 cool-md-3 col-sm-12">
-                    <div class="card">
-                        <ul class="pricing body">
-                            <li class="plan-img"><img class="img-fluid" src="../assets/images/itsme-sample-nutrition-fact-t3.jpg" alt="" /></li>
-                            <li>Ingredients Template 1234</li>
-                            <li>Redesigned from scratch and completely revised.</li>
-                            <li class="plan-btn">
-                                <div class="fancy-checkbox">
-                                    <label>
-                                        <input type="checkbox"  onclick="window.location.href = 'customize.html';">
-                                            <span>Select</span>
-                                    </label>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 cool-md-3 col-sm-12">
-                    <div class="card">
-                        <ul class="pricing body">
-                            <li class="plan-img"><img class="img-fluid" src="../assets/images/itsme-sample-nutrition-fact-t4.jpg" alt="" /></li>
-                            <li>Ingredients Template 1234</li>
-                            <li>Redesigned from scratch and completely revised.</li>
-                            <li class="plan-btn">
-                                <div class="fancy-checkbox">
-                                    <label>
-                                        <input type="checkbox"  onclick="window.location.href = 'customize.html';">
-                                            <span>Select</span>
-                                    </label>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
 
 
+
+                        <div class="body">
+
+
+                                <form id="basic-form" method="post" novalidate="">
+                                    <div class="row">
+                                        <div class="form-group col-md-4">
+                                            <label>Name of the Document</label>
+                                            <input type="text" class="form-control" placeholder="Lable 01">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label>Input Language</label>
+                                            <div class="input-group mb-3">
+                                        <select class="form-control">
+                                            <option value="">English</option>
+                                            <option value="En">English</option>
+                                            <option value="Ar">Arabic</option>
+                                            <option value="Fr">French</option>
+                                        </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-12">
+                                            <label>Output Language</label>
+                                            <br>
+                                            <label class="fancy-checkbox">
+                                                <input type="checkbox" name="checkbox" required="" data-parsley-errors-container="#error-checkbox" data-parsley-multiple="checkbox">
+                                                <span>Arabic</span>
+                                            </label>
+                                            <label class="fancy-checkbox">
+                                                <input type="checkbox" name="checkbox" data-parsley-multiple="checkbox">
+                                                <span>French</span>
+                                            </label>
+                                            <label class="fancy-checkbox">
+                                                <input type="checkbox" name="checkbox" data-parsley-multiple="checkbox">
+                                                <span>German</span>
+                                            </label>
+                                            <p id="error-checkbox"></p>
+                                        </div>
+
+                                    </div>
+
+  
+                                    <div id="translation-its1"></div>
+
+                                    <div class="row mt-3">
+                                        <div class="col-md-12 col-sm-12">
+                                            <a href="#" class="btn btn-sm btn-success its-export-btn bg-green float-right" title="">Save</a>
+                                        </div>
+    
+                                    </div>
+
+                                </form>
+                        </div>
+                    </div>
+                </div>                
+                
             </div>
-
-
 
 
         </div>
@@ -431,7 +423,6 @@
 <!-- Main -->
 <script src="../assets/bundles/mainscripts.bundle.js"></script>
 
-<!-- Custom Js -->
 <script type="text/javascript" src="../assets/js/custom.js"></script>
 
 </body>

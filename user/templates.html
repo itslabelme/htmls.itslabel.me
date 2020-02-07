@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<title>ITSLabel.me | Home</title>
+<title>ITSLabel.me | Documents</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -260,7 +260,7 @@
                 </div>
                 <div class="dropdown">
                     <span>Welcome,</span>
-                    <a href="page-profile.html" class="user-name"><strong>Krishna</strong></a>
+                    <a href="client-profile.html" class="user-name"><strong>Krishna</strong></a>
                 </div>                
             </div>  
             <nav id="left-sidebar-nav" class="sidebar-nav">
@@ -270,7 +270,7 @@
                         <li>
                             <a href="#" class="has-arrow"><i class="icon-plus"></i><span>New Translation</span></a>
                             <ul>
-                                <li><a href="template-based.html"> Template Based</a></li>
+                                <li><a href="select-template.html"> Template Based</a></li>
                                 <li><a href="table-based.html">Table Based </a></li>
                             </ul>
                         </li>
@@ -330,263 +330,272 @@
                 </div>
             </div>
 
+
             <div class="row clearfix">
-                <div class="col-md-12">
+                <div class="col-lg-12">
                     <div class="card">
                         <div class="body">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search here...">
-                                <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary" type="button">Search</button>
-                                </div>
+
+                            <div class="mb-3">
+
+                                <form>
+
+                                    <div class="input-group" id="adv-search">
+                                        <input type="text" class="form-control" placeholder="Search..." />
+                                        <div class="input-group-btn">
+                                            <div class="btn-group" role="group">
+                                                <div class="dropdown dropdown-lg">
+                                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                                                    <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                                        <form class="form-horizontal" role="form">
+                                                    <div class="row">
+                                                        <div class="col-md-2">
+                                                          <div class="form-group">
+                                                            <label for="filter">Tag</label>
+                                                            <select class="form-control">
+                                                                <option value="0" selected>All Tags</option>
+                                                                <option value="1">Tag 01</option>
+                                                                <option value="2">Tag 02</option>
+                                                                <option value="3">Tag 03</option>
+                                                            </select>
+                                                          </div>        
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                          <div class="form-group">
+                                                            <label for="filter">Input Language</label>
+                                                            <select class="form-control">
+                                                                <option value="0" selected>All Language</option>
+                                                                <option value="1">English</option>
+                                                                <option value="2">Arabic</option>
+                                                                <option value="3">French</option>
+                                                            </select>
+                                                          </div>        
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                          <div class="form-group">
+                                                            <label for="filter">Output Language</label>
+                                                            <select class="form-control">
+                                                                <option value="0" selected>All Language</option>
+                                                                <option value="1">English</option>
+                                                                <option value="2">Arabic</option>
+                                                                <option value="3">French</option>
+                                                            </select>
+                                                          </div>        
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                          <div class="form-group">
+                                                            <label for="filter">Status</label>
+                                                            <select class="form-control">
+                                                                <option value="0" selected>All</option>
+                                                                <option value="1">Active</option>
+                                                                <option value="2">Inactive</option>
+                                                                <option value="3">Removed</option>
+                                                                <option value="4">Archived</option>
+                                                            </select>
+                                                          </div>        
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                          <div class="form-group">
+                                                            <label for="filter">Type of Document</label>
+                                                            <select class="form-control">
+                                                                <option value="0" selected>All</option>
+                                                                <option value="1">Table Based</option>
+                                                                <option value="2">Template Based</option>
+                                                            </select>
+                                                          </div>         
+                                                        </div>
+                                                        <div class="col-md-2">
+                                                          <div class="form-group">
+                                                            <label for="filter">Template</label>
+                                                            <select class="form-control">
+                                                                <option value="0" selected>All</option>
+                                                                <option value="1">Table Based</option>
+                                                                <option value="2">Template Based</option>
+                                                            </select>
+                                                          </div>         
+                                                            </div>
+                                                        </div>  
+                                                          <div class="its-mright">
+                                                            <button type="submit" class="btn btn-primary">Apply</button>
+                                                            <button type="submit" class="btn btn-primary">Cancel</button>
+                                                          </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="btn btn-primary"><i class="icon-magnifier"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                </form> 
+
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row clearfix">
-                <div class="col-lg-12 col-md-12">
 
-                   <!--  <div class="header">
-                        <h2>Recent Translations</h2>
-                    </div> -->
 
-                    <div class="table-responsive">
-                        <table class="table table-hover table-custom spacing5">
-                            <thead>
-                                <tr> 
-                                    <th style="width: 20px;">#</th>
-                                    <th>Document Name</th>
-                                    <th style="width: 50px;">Type</th>
-                                    <th style="width: 300px;">Tags</th>
-                                    <th style="width: 50px;">Created</th>
-                                    <th style="width: 110px;">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <span>01</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="preview1.html" title="">New Label 90237</a>  
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>Template</td>
-                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
-                                    <td>Oct 24th 2019</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default active" title="Remove Favorite" data-toggle="tooltip" data-placement="top"><i class="icon-star"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span>02</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="translated-list.html" title="">Marmite Oct 2019</a>
-                                            </div>
-                                        </div>                                        
-                                    </td>
-                                    <td>Plain Text</td>
-                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
-                                    <td>Oct 24th 2019</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Add to Favorite" data-toggle="tooltip" data-placement="top"><i class="icon-star"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span>03</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="translated-list.html" title="">New Label 189263</a>
-                                            </div>
-                                        </div>                                        
-                                    </td>
-                                    <td>Template</td>
-                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
-                                    <td>Oct 24th 2019</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default active" title="Remove Favorite" data-toggle="tooltip" data-placement="top"><i class="icon-star"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span>04</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="translated-list.html" title="">Robinson Foods</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>Plain Text</td>
-                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
-                                    <td>Oct 24th 2019</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Add to Favorite" data-toggle="tooltip" data-placement="top"><i class="icon-star"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span>05</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="translated-list.html" title="">New Label 90456</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>Template</td>
-                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
-                                    <td>Oct 22th 2019</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Add to Favorite" data-toggle="tooltip" data-placement="top"><i class="icon-star"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
+                        <!-- Table Content-->
+                        <div class="tab-content mt-0">
+                            <div class="tab-pane active show" id="Users">
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-custom spacing8 its-table-remove-border">
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 5%;">#</th>
+                                                <th style="width: 10%">Name</th>
+                                                <th style="width: 5%">Document Type</th>
+                                                <th style="width: 20%">Input Language</th>
+                                                <th style="width: 20%">Output Language </th>
+                                                <th style="width: 40%">Tags</th>
+                                                <th>Status</th>
+                                                <th class="w100">
+                                                Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>01</td>
+                                                <td>
+                                                    <h6 class="mb-1">Sample Document 6</h6>
+                                                </td>
+                                                <td>Table</td>
+                                                <td>EN</td>
+                                                <td class="itslabel-olang">
+                                                      <ul>
+                                                        <li>Ar</li>
+                                                        <li>Fr</li>
+                                                        <li>Es</li>
+                                                        <li>Pt</li>
+                                                        <li>De</li>
+                                                      </ul> 
+                                                </td>
 
-                                <tr>
-                                    <td>
-                                        <span>06</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="javascript:void(0);" title="">New Label 90121</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>Template</td>
-                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
-                                    <td>Aug 30th 2019</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default active" title="Remove Favorite" data-toggle="tooltip" data-placement="top"><i class="icon-star"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
+                                                <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                                <td>
+                                                    <span class="badge badge-info badge-active">Active</span>
+                                                </td>
 
-                                <tr>
-                                    <td>
-                                        <span>07</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="javascript:void(0);" title="">New Label 90459</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>Template</td>
-                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
-                                    <td>Aug 30th 2019</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Add to Favorite" data-toggle="tooltip" data-placement="top"><i class="icon-star"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
 
-                                <tr>
-                                    <td>
-                                        <span>08</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="javascript:void(0);" title="">New Label 90456</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>Template</td>
-                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
-                                    <td>Jun 30th 2019</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Add to Favorite" data-toggle="tooltip" data-placement="top"><i class="icon-star"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span>09</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="javascript:void(0);" title="">New Label 90100</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>Template</td>
-                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
-                                    <td>Mar 30th 2019</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Add to Favorite" data-toggle="tooltip" data-placement="top"><i class="icon-star"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
+                                                <td>
+                                                    <a class="btn btn-sm btn-default" data-remote="true" href="table-based-edit.html">
+                                                        <i class="icon-pencil"></i>
+                                                    </a>
+                                                    <a class="btn btn-sm btn-default" data-confirm="Are you sure? Do you really want to remove this translation?" data-remote="true" rel="nofollow" data-method="delete" href="/">
+                                                        <i class="icon-trash"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
 
-                                <tr>
-                                    <td>
-                                        <span>10</span>
-                                    </td>
-                                    <td>
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <a href="javascript:void(0);" title="">New Label 90001</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>Template</td>
-                                    <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
-                                    <td>Jan 30th 2019</td>
-                                    <td>
-                                        <button type="button" class="btn btn-sm btn-default" title="Add to Favorite" data-toggle="tooltip" data-placement="top"><i class="icon-star"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default " title="Print" data-toggle="tooltip" data-placement="top"><i class="icon-printer"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default" title="Delete" data-toggle="tooltip" data-placement="top"><i class="icon-trash"></i></button>
-                                    </td>
-                                </tr>
+                                            <tr>
+                                                <td>02</td>
+                                                <td>
+                                                    <h6 class="mb-0">Sample Document 6</h6>
+                                                </td>
+                                                <td>Template</td>
+                                                <td>EN</td>
+                                                <td class="itslabel-olang">
+                                                      <ul>
+                                                        <li>Ar</li>
+                                                      </ul> 
+                                                </td>
 
-                            </tbody>
-                        </table>
+                                                <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                                <td>
+                                                    <span class="badge badge-info badge-inactive">In Active</span>
+                                                </td>
+
+
+                                                <td>
+                                                    <a class="btn btn-sm btn-default" data-remote="true" href="template-based-edit.html">
+                                                        <i class="icon-pencil"></i>
+                                                    </a>
+                                                    <a class="btn btn-sm btn-default" data-confirm="Are you sure? Do you really want to remove this translation?" data-remote="true" rel="nofollow" data-method="delete" href="/">
+                                                        <i class="icon-trash"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>02</td>
+                                                <td>
+                                                    <h6 class="mb-0">Sample Document 6</h6>
+                                                </td>
+                                                <td>Template</td>
+                                                <td>EN</td>
+                                                <td class="itslabel-olang">
+                                                      <ul>
+                                                        <li>Ar</li>
+                                                      </ul> 
+                                                </td>
+
+                                                <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                                <td>
+                                                    <span class="badge badge-info badge-removed">Removed </span>
+                                                </td>
+
+
+                                                <td>
+                                                    <a class="btn btn-sm btn-default" data-remote="true" href="">
+                                                        <i class="icon-pencil"></i>
+                                                    </a>
+                                                    <a class="btn btn-sm btn-default" data-confirm="Are you sure? Do you really want to remove this translation?" data-remote="true" rel="nofollow" data-method="delete" href="/">
+                                                        <i class="icon-trash"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>02</td>
+                                                <td>
+                                                    <h6 class="mb-0">Sample Document 6</h6>
+                                                </td>
+                                                <td>Template</td>
+                                                <td>EN</td>
+                                                <td class="itslabel-olang">
+                                                      <ul>
+                                                        <li>Ar</li>
+                                                      </ul> 
+                                                </td>
+
+                                                <td class="its-tag"><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span><span>Marmite (2019)</span></td>
+                                                <td>
+                                                    <span class="badge badge-info badge-archived">Archived </span>
+                                                </td>
+
+
+                                                <td>
+                                                    <a class="btn btn-sm btn-default" data-remote="true" href="">
+                                                        <i class="icon-pencil"></i>
+                                                    </a>
+                                                    <a class="btn btn-sm btn-default" data-confirm="Are you sure? Do you really want to remove this translation?" data-remote="true" rel="nofollow" data-method="delete" href="/">
+                                                        <i class="icon-trash"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>  
+
                         <div class="m-0auto text-right">
                         <nav aria-label="Page navigation example" class="text-right">
                                 <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
-                                    <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+                                    <li class="page-item disabled"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+                                    <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
                                     <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
                                     <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
                                     <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
                                 </ul>
                             </nav>                            
                         </div>
-                    </div>
-                </div>  
-                          
+                                                  
+                                </div>
+                            </div>
+                        </div> 
 
+
+
+                        </div>           
+                    </div>
+                </div>
             </div>
 
 
