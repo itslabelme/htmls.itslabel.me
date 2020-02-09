@@ -59,7 +59,7 @@ a:hover{
 .light_version #left-sidebar .navbar-brand{
 	background-color: #0d8241 !important;
 	margin: 0px;
-	padding: 14px 20px 14px;	
+	padding: 14px 20px 12px;	
 }
 
 .custom-select:focus{
@@ -127,6 +127,7 @@ a:hover{
 }
 
 .its-login-social li,
+.its-login-social a,
 .its-login-social li button i,
 .its-login-social li button{
   color: #fff !important;
