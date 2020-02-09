@@ -1,0 +1,17 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.iframe-table{
+	text-align: center;
+	width: 100%;
+}
+
+.iframe-table img{
+	height: 45px;
+}
+
+.iframe-table span{
+	width: 60%;
+    display: inline-block;
+}
