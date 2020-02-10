@@ -24,3 +24,18 @@ body{
 	width: 60%;
     display: inline-block;
 }
+
+.iframe-vertical-table{
+	width: 35%;
+	margin: 0 auto;
+	border: 1px solid #dedede;
+	padding: 20px;
+}
+
+.vertical-width-01{
+	width: 40%;
+}
+
+.vertical-width-02{
+	width: 50%;
+}
