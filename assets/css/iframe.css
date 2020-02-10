@@ -7,6 +7,15 @@ body{
 	width: 100%;
 }
 
+.iframe-table tr th {
+    background: none !important;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px;
+    padding-bottom: 15px;
+}
+
 .iframe-table img{
 	height: 45px;
 }
