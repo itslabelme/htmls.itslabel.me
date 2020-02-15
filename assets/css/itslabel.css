@@ -935,3 +935,8 @@ fieldset legend{
     max-width: 600px;
 }
 }
+
+
+.its-home-min-height{
+  min-height: 110px;
+}
