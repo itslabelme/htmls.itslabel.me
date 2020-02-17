@@ -964,3 +964,7 @@ fieldset legend{
 .metismenu ul a:hover:before{
   width: 15px;
 }
+
+.metismenu > li{
+  flex: none;
+}
