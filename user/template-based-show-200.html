@@ -323,13 +323,23 @@
 
                             <div class="body">
 
-                                <form id="basic-form" method="post" novalidate="">
-                                    <div class="row">
-                                        <div class="form-group col-md-4">
+                                <form action="/action_page.php">
+                                    <fieldset>
+                                     <legend style="font-size: 20px;font-weight: bold;">Translate with Template</legend>
+                                     <div class="row">
+                                        <div class="col-md-8">
+                                             <p>Edit the text in the template and Cick on <span class="badge badge-info">Save</span> button to Translate and Save. </p>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <button class="btn btn-primary float-right ml-3" type="button"><i class="fa fa-save mr-2"></i> Save</button>
+                                        </div>
+
+                                        <div class="form-group col-md-12">
                                             <label>Document Title</label>
                                             <input type="text" class="form-control" required="">
                                         </div>
-                                        <div class="form-group col-md-4">
+                                        <div class="form-group col-md-6">
                                             <label>Input Language</label>
                                             <div class="input-group mb-3">
                                                 <select class="form-control">
@@ -341,7 +351,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="form-group col-md-4">
+                                        <div class="form-group col-md-6">
                                             <label>Output Language</label>
                                             <div class="input-group mb-3">
                                                 <select class="form-control">
@@ -354,6 +364,8 @@
                                         </div>
 
                                     </div>
+                                    </fieldset>
+
 
                                     <div class="tab-content mt-0">
                                         <div class="tab-pane vivify fadeIn active">
@@ -396,21 +408,6 @@
 
                                                     </textarea>
 
-                                                    <div class="row mt-4">
-                                                        <div class="col-md-12 mb-2">
-                                                            <div class="custom-control custom-switch">
-                                                                <input type="checkbox" class="custom-control-input" id="customSwitches5">
-                                                                <label class="custom-control-label" for="customSwitches5">Company/Distributor Logo</label>
-                                                            </div>
-
-                                                            <div id="mycheckboxdiv5" class="mt-2" style="display:none">
-                                                                <input type="file" class="dropify">
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-
-
 
                                                 </div>
                                                 <div class="col-md-6">
@@ -445,15 +442,6 @@
                                                                 <input type="text" class="form-control" data-role="tagsinput" value="Marnum, Gulf food">
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <button class="btn btn-primary float-right ml-3" type="button">Save</button>
-
-                                                        <button class="btn btn-primary float-right" type="button">Cancel</button>
-
                                                     </div>
                                                 </div>
 
