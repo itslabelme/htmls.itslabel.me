@@ -60,6 +60,9 @@
 
     <link rel="stylesheet" href="../assets/css/its-tree.css">
 
+
+    <link rel="stylesheet" href="../assets/css/its-right-context-menu.css">
+
     <!--[if IE 9]>
 
 	<link rel="stylesheet" type="text/css" href="../assets/css/IE/ie9.css" />
@@ -330,6 +333,11 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="mail-inbox">
+
+                                <div class="mobile-left">
+                                    <a href="javascript:void(0);" class="btn btn-primary toggle-email-nav"><i class="fa fa-bars"></i></a>
+                                </div>
+
                                 <div class="body mail-left">
                                     <div class="mail-side">
                                         <ul id="tree2">
@@ -432,21 +440,76 @@
                                     </div>
                                 </div>
                                 <div class="body mail-right check-all-parent">
+
+                                    
+                                    <div class="mail-action clearfix m-l-15">
+                                        <div class="pull-left">
+                                            <div class="fancy-checkbox d-inline-block">
+                                                <label>
+                                                    <input class="check-all" type="checkbox" name="checkbox">
+                                                    <span></span>
+                                                </label>
+                                            </div>
+                                            <a href="javascript:void(0);" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icon-trash"></i></a>
+                                            <a href="javascript:void(0);" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="top" title="Archive"><i class="fa fa-archive"></i></a>
+                                            <a href="javascript:void(0);" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="top" title="Refresh"><i class="icon-refresh"></i></a> 
+                                            <a href="javascript:void(0);" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="top" title="Cut"><i class="fa fa-cut"></i> </a>   
+                                            <a href="javascript:void(0);" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="top" title="Copy"><i class="icon-docs"></i> </a>   
+                                            <a href="javascript:void(0);" class="btn btn-light btn-sm" data-toggle="tooltip" data-placement="top" title="Paste"><i class="fa fa-paste"></i></a>                                    
+                                            
+                                            
+                                            <div class="btn-group">
+                                                <span id="popoverWrapper" data-toggle="tooltip" data-placement="top" data-original-title="Move To">
+                                                    <button class="btn btn-light btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-share fa-fw"></i></button>
+                                                
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Folder 01</a>
+                                                        <a class="dropdown-item" href="#">Folder 02</a>
+                                                        <a class="dropdown-item" href="#">Folder 03</a>
+                                                        <div role="separator" class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Create New</a>
+                                                        <a class="dropdown-item" href="#">Archive</a>
+                                                        <a class="dropdown-item" href="#">Delete</a>
+                                                      </div>                                              
+                                                
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="pull-right ml-auto">
+                                            <div class="pagination-email d-flex">
+                                                <p>1-50/295</p>
+                                                <div class="btn-group m-l-20">
+                                                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-angle-left"></i></button>
+                                                    <button type="button" class="btn btn-default btn-sm"><i class="fa fa-angle-right"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                     
                                     <div class="table-responsive">
                                         <table class="table table-hover table-custom spacing8">
                                             <thead>
                                                 <tr> 
+                                                    <th></th>
                                                     <th>#</th>
-                                                    <th>Search file</th>
+                                                    <th>Name</th>
                                                     <th>Size</th>
                                                     <th>Created date</th>
                                                     <th>Last updated on</th>
                                                     <th>Folder</th>
                                                 </tr>
                                             </thead>
-                                            <tbody>
+                                            <tbody  oncontextmenu ="event.preventDefault();$('#context-menu').show();$('#context-menu').offset({'top':mouseY,'left':mouseX})">
                                                 <tr>
+                                                    <td class="w20">
+                                                        <div class="md-left">
+                                                            <label class="fancy-checkbox">
+                                                                <input type="checkbox" name="checkbox" class="checkbox-tick">
+                                                                <span></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
                                                     <td class="w60">01</td>
                                                     <td>
                                                         <a href="javascript:void(0);" title="">Document Name</a>
@@ -460,6 +523,14 @@
                                                     <td><strong>Folder 01</strong></td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="w20">
+                                                        <div class="md-left">
+                                                            <label class="fancy-checkbox">
+                                                                <input type="checkbox" name="checkbox" class="checkbox-tick">
+                                                                <span></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
                                                     <td class="w60">02</td>
                                                     <td>
                                                         <a href="javascript:void(0);" title="">Document Name</a>
@@ -473,6 +544,14 @@
                                                     <td><strong>Folder 01</strong></td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="w20">
+                                                        <div class="md-left">
+                                                            <label class="fancy-checkbox">
+                                                                <input type="checkbox" name="checkbox" class="checkbox-tick">
+                                                                <span></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
                                                     <td class="w60">03</td>
                                                     <td>
                                                         <a href="javascript:void(0);" title="">Document Name</a>
@@ -486,6 +565,14 @@
                                                     <td><strong>Folder 01</strong></td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="w20">
+                                                        <div class="md-left">
+                                                            <label class="fancy-checkbox">
+                                                                <input type="checkbox" name="checkbox" class="checkbox-tick">
+                                                                <span></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
                                                     <td class="w60">04</td>
                                                     <td>
                                                         <a href="javascript:void(0);" title="">Document Name</a>
@@ -499,6 +586,14 @@
                                                     <td><strong>Folder 01</strong></td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="w20">
+                                                        <div class="md-left">
+                                                            <label class="fancy-checkbox">
+                                                                <input type="checkbox" name="checkbox" class="checkbox-tick">
+                                                                <span></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
                                                     <td class="w60">05</td>
                                                     <td>
                                                         <a href="javascript:void(0);" title="">Document Name</a>
@@ -512,6 +607,14 @@
                                                     <td><strong>Folder 01</strong></td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="w20">
+                                                        <div class="md-left">
+                                                            <label class="fancy-checkbox">
+                                                                <input type="checkbox" name="checkbox" class="checkbox-tick">
+                                                                <span></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
                                                     <td class="w60">06</td>
                                                     <td>
                                                         <a href="javascript:void(0);" title="">Document Name</a>
@@ -525,6 +628,14 @@
                                                     <td><strong>Folder 01</strong></td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="w20">
+                                                        <div class="md-left">
+                                                            <label class="fancy-checkbox">
+                                                                <input type="checkbox" name="checkbox" class="checkbox-tick">
+                                                                <span></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
                                                     <td class="w60">07</td>
                                                     <td>
                                                         <a href="javascript:void(0);" title="">Document Name</a>
@@ -538,6 +649,14 @@
                                                     <td><strong>Folder 01</strong></td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="w20">
+                                                        <div class="md-left">
+                                                            <label class="fancy-checkbox">
+                                                                <input type="checkbox" name="checkbox" class="checkbox-tick">
+                                                                <span></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
                                                     <td class="w60">08</td>
                                                     <td>
                                                         <a href="javascript:void(0);" title="">Document Name</a>
@@ -551,6 +670,14 @@
                                                     <td><strong>Folder 01</strong></td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="w20">
+                                                        <div class="md-left">
+                                                            <label class="fancy-checkbox">
+                                                                <input type="checkbox" name="checkbox" class="checkbox-tick">
+                                                                <span></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
                                                     <td class="w60">09</td>
                                                     <td>
                                                         <a href="javascript:void(0);" title="">Document Name</a>
@@ -564,6 +691,14 @@
                                                     <td><strong>Folder 01</strong></td>
                                                 </tr>
                                                 <tr>
+                                                    <td class="w20">
+                                                        <div class="md-left">
+                                                            <label class="fancy-checkbox">
+                                                                <input type="checkbox" name="checkbox" class="checkbox-tick">
+                                                                <span></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
                                                     <td class="w60">10</td>
                                                     <td>
                                                         <a href="javascript:void(0);" title="">Document Name</a>
@@ -589,6 +724,24 @@
 
     </div>
 
+
+    <div class="context-menu" id="context-menu" style="display:none;position:absolute;z-index:99">
+        <ul>
+          <li><a href="#"><i class="icon-trash"></i>  Delete</a></li>       
+          <li><a href="#"><i class="fa fa-archive"></i> Archive</a></li>       
+          <li><a href="#"><i class="fa fa-cut"></i> Cut</a></li>  
+          <li><a href="#"><i class="fa fa-files-o"></i> Copy</a></li> 
+          <li><a href="#"><i class="fa fa-paste"></i> Paste</a></li>      
+          <li><a href="#"><i class="fa fa-share fa-fw"></i> Move</a>
+                <ul class="context-menu-dd">
+                    <li><a href="#">Folder 01</a></li>
+                    <li><a href="#">Folder 02</a></li>
+                    <li><a href="#">Folder 03</a></li>
+                </ul>
+          </li>       
+                
+        </ul>
+    </div>
 
     <!-- Javascript -->
     <script src="../assets/bundles/libscripts.bundle.js"></script>
@@ -628,6 +781,8 @@
 
 
     <script src="../assets/js/its-tree.js"></script>
+
+    <script src="../assets/js/its-rightclick.js"></script>
 
 </body>
 
