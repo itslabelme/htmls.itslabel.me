@@ -90,7 +90,7 @@
 }
 
 .its-free-action-trans-btn li:hover a{
-  background: #000000;
+  background: #1dc166;
 }
 
 .its-template-list .its-free-action-trans-btn li a svg{
@@ -170,6 +170,19 @@
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   border-bottom: none;
+}
+
+
+.its-free-action-trans-btn li.its-swap-btn a{
+  background: #a3a3a3;
+  color: #fff;
+  border-color: #a3a3a3;
+}
+
+.its-free-action-trans-btn li.its-swap-btn:hover a{
+  background: #1dc166;
+  color: #fff;
+  border-color: #1dc166;
 }
 
 @media (min-width: 990px) and (max-width: 1036px) {
