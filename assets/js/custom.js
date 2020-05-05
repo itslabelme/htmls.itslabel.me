@@ -16,4 +16,7 @@ $(document).ready(function() {
     $('#customSwitches5').change(function() {
         $('#mycheckboxdiv5').toggle();
     });
+
+
+
 });
