@@ -49,3 +49,9 @@
   .context-menu-dd li a{
     color: #006747; 
   }
+
+  /** Drag & Drop **/
+
+  .light_version .mail-inbox .table.table-custom tbody tr{
+    cursor: all-scroll;
+  }
