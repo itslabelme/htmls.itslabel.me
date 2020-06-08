@@ -22,6 +22,7 @@ box-shadow: -4px -4px 30px -11px rgba(0,0,0,0.26);
 
 .its-login-form{
 	padding: 30px;
+	text-align: left;
 }
 
 .auth-main2 .form-auth-small{
@@ -36,4 +37,22 @@ box-shadow: -4px -4px 30px -11px rgba(0,0,0,0.26);
 	font-weight: bold;
 	margin: 20px;
 	color: #006649;
+}
+
+.its-login-header{
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.its-login-header .col-md-8 .lead{
+	margin-left: 0px;
+	margin-top: 5px;
+}
+
+.its-login-header .col-md-4 .auth_brand{
+	text-align: right;
+}
+
+.auth-main2 .form-auth-small{
+	text-align: left;
 }
