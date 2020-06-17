@@ -41,6 +41,10 @@
     position:relative
 }
 
+.tree li a.active{
+    font-weight: bold;
+}
+
 .tree li i{
     padding-right: 10px;
 }
