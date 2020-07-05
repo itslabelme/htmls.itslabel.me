@@ -1036,3 +1036,8 @@ fieldset legend{
   text-transform: uppercase;
   font-size: 12px;
 }
+
+
+.btn.btn-round{
+  border-radius: 0px;
+}
