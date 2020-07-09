@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
 <title>ITSLabel.me | Home</title>
 <meta charset="utf-8">
@@ -9,7 +8,6 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
-
 <link rel="apple-touch-icon" sizes="57x57" href="../assets/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="../assets/favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/apple-icon-72x72.png">
@@ -54,317 +52,234 @@
 <link rel="stylesheet" href="../assets/css/its-nf.css">
 <link rel="stylesheet" href="../assets/css/ad-search.css">
 <link rel="stylesheet" href="../assets/css/itslabel.css">
-
+<link rel="stylesheet" href="../assets/css/responsive.css">
 </head>
 
 <body class="font-roboto light_version">
 
 <!-- Page Loader -->
 <div class="page-loader-wrapper">
-    <div class="loader">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-        <div class="bar4"></div>
-        <div class="bar5"></div>
-    </div>
+  <div class="loader">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    <div class="bar4"></div>
+    <div class="bar5"></div>
+  </div>
 </div>
-
 
 <!-- Overlay For Sidebars -->
 <div class="overlay"></div>
-
-<div id="wrapper">
-
-    <!-- Top Navigation -->
-    <nav class="navbar top-navbar">
-        <div class="container-fluid">
-
-            <div class="navbar-left">
-                <div class="navbar-btn">
-                    <a href="home.html"><img src="../assets/images/itsme-logo.png" alt="itslabel" class="img-fluid logo"></a>
-                    <button type="button" class="btn-toggle-offcanvas"><i class="lnr lnr-menu fa fa-bars"></i></button>
-                </div>
-            </div>
-            
+<div id="wrapper"> 
+  
+  <!-- Top Navigation -->
+  <nav class="navbar top-navbar">
+    <div class="container-fluid">
+      <div class="navbar-left">
+        <div class="navbar-btn"> <a href="home.html"><img src="../assets/images/itsme-logo.png" alt="itslabel" class="img-fluid logo"></a>
+          <button type="button" class="btn-toggle-offcanvas"><i class="lnr lnr-menu fa fa-bars"></i></button>
         </div>
-        <div class="progress-container"><div class="progress-bar" id="myBar"></div></div>
-    </nav>
-
-    <!-- End Top Navigation -->
-
-
-        <!-- Left Sidebar -->
-
-        <div id="left-sidebar" class="sidebar">
-            <div class="navbar-brand">
-                <a href="home.html"><img src="../assets/images/itsme-logo.png" alt="ItsLabel" class="img-fluid logo"></a>
-                <button type="button" class="btn-toggle-offcanvas btn btn-sm float-right"><i class="lnr lnr-menu icon-close"></i></button>
-            </div>
-            <div class="sidebar-scroll">
-                <div class="user-account">
-                    <div class="dropdown">                        
-                        <a href="#" class="user-name"><strong>Hariharan</strong></a>
-                        <span>THC</span>
-                    </div>
-                </div>
-                <nav id="left-sidebar-nav" class="sidebar-nav">
-                    <ul id="main-menu" class="metismenu">
-                        <li class="active"><a href="home.html">
-                            <img src="../assets/images/icons/home.svg">
-                            <span>Home</span></a></li>
-                        <li>
-                            <a href="#" class="has-arrow">
-                                <img src="../assets/images/icons/language.svg">
-                                <span>New Translation</span></a>
-                            <ul>
-                                <li>
-                                    <a href="select-template.html">Free Form</a>
-                                </li>
-                                <li>
-                                    <a href="select-template.html">Template Based</a>
-                                </li>
-                                <li>
-                                    <a href="table-based.html">Table Based </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="documents.html">
-                                <img src="../assets/images/icons/all.svg">
-                                <span>All Translations </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="templates.html">
-                                <img src="../assets/images/icons/recent.svg">
-                                <span>Recent</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="documents.html">
-                                <img src="../assets/images/icons/archives.svg">
-                                <span>Archives</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="documents.html">
-                                <img src="../assets/images/icons/trash.svg">
-                                <span>Trash</span>
-                            </a>
-                        </li>
-
-                        <li class="header">My Account</li>
-
-                        <li>
-                            <a href="client-profile.html">
-                                <img src="../assets/images/icons/user.svg">
-                                <span>My Profile</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="../assets/images/icons/cart.svg">
-                                <span>Subscription</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="../assets/images/icons/logout.svg">
-                                <span>Logout</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-
-        <!-- End Left Sidebar -->
-
-
-    <!-- Main Content -->
-
-    <div id="main-content" class="mt-2">
-        <div class="container-fluid">
-            <div class="block-header">
-                <div class="row clearfix">
-                    <div class="col-md-6 col-sm-12">
-                        <h1>Select Template</h1>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="home.html">Home</a></li>
-                            <li class="breadcrumb-item active">Select Template</li>
-                            </ol>
-                        </nav>
-                    </div>   
-                </div>
-            </div>
-
-            <div class="row clearfix">
-                <div class="col-lg-4 cool-md-3 col-sm-12">
-                    <div class="card">
-
-                        <div class="box">
-
-
-                            <ul class="pricing body">
-                                <li class="plan-img"><img class="img-fluid" src="../assets/images/Label-Template.jpg" alt="" /></li>
-                                <li>Label Template 1234</li>
-                                <li>Redesigned from scratch and completely revised.</li>
-                                <li class="plan-btn"><a href="template-based-show.html" class="btn-primary"><span>Select</span></a>
-                                </li>
-                            </ul>
-
-                            <div class="ribbon"><span>New</span></div>
-                          </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 cool-md-3 col-sm-12">
-                    <div class="card">
-                        <div class="box">
-
-
-                            <ul class="pricing body">
-                                <li class="plan-img"><img class="img-fluid" src="../assets/images/Label-Template.jpg" alt="" /></li>
-                                <li>Label Template 1234</li>
-                                <li>Redesigned from scratch and completely revised.</li>
-                                <li class="plan-btn"><a href="template-based-show.html" class="btn-primary"><span>Select</span></a>
-                                </li>
-                            </ul>
-
-                            <div class="ribbon"><span>New</span></div>
-                          </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 cool-md-3 col-sm-12">
-                    <div class="card">
-                        <div class="box">
-
-
-                            <ul class="pricing body">
-                                <li class="plan-img"><img class="img-fluid" src="../assets/images/Label-Template.jpg" alt="" /></li>
-                                <li>Label Template 1234</li>
-                                <li>Redesigned from scratch and completely revised.</li>
-                                <li class="plan-btn"><a href="template-based-show.html" class="btn-primary"><span>Select</span></a>
-                                </li>
-                            </ul>
-
-                          </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 cool-md-3 col-sm-12">
-                    <div class="card">
-                        <div class="box">
-
-
-                            <ul class="pricing body">
-                                <li class="plan-img"><img class="img-fluid" src="../assets/images/Label-Template.jpg" alt="" /></li>
-                                <li>Label Template 1234</li>
-                                <li>Redesigned from scratch and completely revised.</li>
-                                <li class="plan-btn"><a href="template-based-show.html" class="btn-primary"><span>Select</span></a>
-                                </li>
-                            </ul>
-
-                          </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 cool-md-3 col-sm-12">
-                    <div class="card">
-                        <div class="box">
-
-
-                            <ul class="pricing body">
-                                <li class="plan-img"><img class="img-fluid" src="../assets/images/Label-Template.jpg" alt="" /></li>
-                                <li>Label Template 1234</li>
-                                <li>Redesigned from scratch and completely revised.</li>
-                                <li class="plan-btn"><a href="template-based-show.html" class="btn-primary"><span>Select</span></a>
-                                </li>
-                            </ul>
-
-                          </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 cool-md-3 col-sm-12">
-                    <div class="card">
-                        <div class="box">
-
-
-                            <ul class="pricing body">
-                                <li class="plan-img"><img class="img-fluid" src="../assets/images/Label-Template.jpg" alt="" /></li>
-                                <li>Label Template 1234</li>
-                                <li>Redesigned from scratch and completely revised.</li>
-                                <li class="plan-btn"><a href="template-based-show.html" class="btn-primary"><span>Select</span></a>
-                                </li>
-                            </ul>
-
-                          </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Paginattion -->
-                    <div class="row clearfix itslabel-secondary-pagination">
-                        <div class="col-md-6 col-sm-12"></div>
-                        <div class="col-md-6 col-sm-12 text-right mb-3">
-                            <div class="m-0auto text-right">
-                                <nav aria-label="Page navigation example">
-                                    <ul class="pagination" style="float: right;">
-                                        <li class="page-item disabled"><a class="page-link" href="javascript:void(0);">Previous</a></li>
-                                        <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
-                                        <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-
-            <!-- End Pagination-->
-
-
-
-
-        </div>
+      </div>
     </div>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </nav>
+  
+  <!-- End Top Navigation --> 
+  
+  <!-- Left Sidebar -->
+  
+  <div id="left-sidebar" class="sidebar">
+    <div class="navbar-brand"> <a href="home.html"><img src="../assets/images/itsme-logo.png" alt="ItsLabel" class="img-fluid logo"></a>
+      <button type="button" class="btn-toggle-offcanvas btn btn-sm float-right"><i class="lnr lnr-menu icon-close"></i></button>
+    </div>
+    <div class="sidebar-scroll">
+      <div class="user-account">
+        <div class="dropdown"> <a href="#" class="user-name"><strong>Hariharan</strong></a> <span>THC</span> </div>
+      </div>
+      <nav id="left-sidebar-nav" class="sidebar-nav">
+        <ul id="main-menu" class="metismenu">
+          <li class="active"><a href="home.html"> <img src="../assets/images/icons/home.svg"> <span>Home</span></a></li>
+          <li class="active"> <a href="#" class="has-arrow" aria-expanded="true"> <img src="../assets/images/icons/language.svg"> <span>New Translation</span></a>
+            <ul aria-expanded="true" class="collapse in" style="">
+              <li> <a href="free-form.html">Free Form</a> </li>
+              <li> <a href="select-template.html">Template Based</a> </li>
+              <li> <a href="table-based.html">Table Based </a> </li>
+            </ul>
+          </li>
+          <li> <a href="documents.html"> <img src="../assets/images/icons/all.svg"> <span>All Translations </span> </a> </li>
+          <li> <a href="templates.html"> <img src="../assets/images/icons/recent.svg"> <span>Recent</span> </a> </li>
+          <li> <a href="documents.html"> <img src="../assets/images/icons/archives.svg"> <span>Archives</span> </a> </li>
+          <li> <a href="documents.html"> <img src="../assets/images/icons/trash.svg"> <span>Trash</span> </a> </li>
+          <li class="header">My Account</li>
+          <li> <a href="client-profile.html"> <img src="../assets/images/icons/user.svg"> <span>My Profile</span> </a> </li>
+          <li> <a href="#"> <img src="../assets/images/icons/cart.svg"> <span>Subscription</span> </a> </li>
+          <li> <a href="#"> <img src="../assets/images/icons/logout.svg"> <span>Logout</span> </a> </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  
+  <!-- End Left Sidebar --> 
+  
+  <!-- Main Content -->
+  
+  <div id="main-content" class="mt-2">
+    <div class="container-fluid">
+      <div class="block-header">
+        <div class="row clearfix">
+          <div class="col-md-6 col-sm-12">
+            <h1>Select Template</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+                <li class="breadcrumb-item active">Select Template</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="row clearfix its-template-mcontainer">
+        <div class="col-lg-4 cool-md-3 col-sm-12">
+          <div class="card">
+            <div class="box its-template-container">
+              <ul class="pricing body">
+                <li class="plan-img"><img class="img-fluid" src="../assets/images/Label-Template.jpg" alt="" /></li>
+                <li>Label Template 1234</li>
+                <li>Redesigned from scratch and completely revised.</li>
+                <li class="plan-btn"><a href="template-based-show.html" class="btn-primary"><span>Select</span></a> </li>
+              </ul>
+              <div class="ribbon"><span>New</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 cool-md-3 col-sm-12">
+          <div class="card">
+            <div class="box its-template-container">
+              <ul class="pricing body">
+                <li class="plan-img"><img class="img-fluid" src="../assets/images/Label-Template.jpg" alt="" /></li>
+                <li>Label Template 1234</li>
+                <li>Redesigned from scratch and completely revised.</li>
+                <li class="plan-btn"><a href="template-based-show.html" class="btn-primary"><span>Select</span></a> </li>
+              </ul>
+              <div class="ribbon"><span>New</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 cool-md-3 col-sm-12">
+          <div class="card">
+            <div class="box its-template-container">
+              <ul class="pricing body">
+                <li class="plan-img"><img class="img-fluid" src="../assets/images/Label-Template.jpg" alt="" /></li>
+                <li>Label Template 1234</li>
+                <li>Redesigned from scratch and completely revised.</li>
+                <li class="plan-btn"><a href="template-based-show.html" class="btn-primary"><span>Select</span></a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 cool-md-3 col-sm-12">
+          <div class="card">
+            <div class="box its-template-container">
+              <ul class="pricing body">
+                <li class="plan-img"><img class="img-fluid" src="../assets/images/Label-Template.jpg" alt="" /></li>
+                <li>Label Template 1234</li>
+                <li>Redesigned from scratch and completely revised.</li>
+                <li class="plan-btn"><a href="template-based-show.html" class="btn-primary"><span>Select</span></a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 cool-md-3 col-sm-12">
+          <div class="card">
+            <div class="box its-template-container">
+              <ul class="pricing body">
+                <li class="plan-img"><img class="img-fluid" src="../assets/images/Label-Template.jpg" alt="" /></li>
+                <li>Label Template 1234</li>
+                <li>Redesigned from scratch and completely revised.</li>
+                <li class="plan-btn"><a href="template-based-show.html" class="btn-primary"><span>Select</span></a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 cool-md-3 col-sm-12">
+          <div class="card">
+            <div class="box its-template-container">
+              <ul class="pricing body">
+                <li class="plan-img"><img class="img-fluid" src="../assets/images/Label-Template.jpg" alt="" /></li>
+                <li>Label Template 1234</li>
+                <li>Redesigned from scratch and completely revised.</li>
+                <li class="plan-btn"><a href="template-based-show.html" class="btn-primary"><span>Select</span></a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Paginattion -->
+      <div class="row clearfix itslabel-secondary-pagination">
+        <div class="col-md-6 col-sm-12"></div>
+        <div class="col-md-6 col-sm-12 text-right mb-3 remove-margin">
+          <div class="m-0auto text-right">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item disabled"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+                <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      <!-- End Pagination--> 
 
-    <!-- End Main Content -->
-    
+      <div class="row clearfix its-footer-container mb-2">
+        <div class="col-md-12">
+          <p>© Copyright 2020 ITSLabel.me - All Rights Reserved.</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- End Main Content --> 
+  
 </div>
 
-<!-- Javascript -->
-<script src="../assets/bundles/libscripts.bundle.js"></script>
-<script src="../assets/bundles/vendorscripts.bundle.js"></script>
+<!-- Javascript --> 
+<script src="../assets/bundles/libscripts.bundle.js"></script> 
+<script src="../assets/bundles/vendorscripts.bundle.js"></script> 
 
-<!-- Date Picker -->
-<script src="../assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<!-- Date Picker --> 
+<script src="../assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script> 
 
-<!-- Dropify -->
-<script src="../assets/vendor/dropify/js/dropify.js"></script>
-<script src="../assets/vendor/dropify/js/dropify-script.js"></script>
+<!-- Dropify --> 
+<script src="../assets/vendor/dropify/js/dropify.js"></script> 
+<script src="../assets/vendor/dropify/js/dropify-script.js"></script> 
 
-<!-- Tags -->
-<script src="../assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+<!-- Tags --> 
+<script src="../assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.js"></script> 
 
-<!-- Handsontable -->
-<script src="../assets/vendor/handsontable/handsontable.full.min.js"></script>
-<script src="../assets/vendor/handsontable/handsontable.js"></script>
-<script src="../assets/vendor/handsontable/handsontable2.js"></script>
+<!-- Handsontable --> 
+<script src="../assets/vendor/handsontable/handsontable.full.min.js"></script> 
+<script src="../assets/vendor/handsontable/handsontable.js"></script> 
+<script src="../assets/vendor/handsontable/handsontable2.js"></script> 
 
-<!-- Tiny MCE -->
-<script src="../assets/vendor/tinymce/tinymce.min.js"></script>
-<script src="../assets/vendor/tinymce/tinymce-script.js"></script>
+<!-- Tiny MCE --> 
+<script src="../assets/vendor/tinymce/tinymce.min.js"></script> 
+<script src="../assets/vendor/tinymce/tinymce-script.js"></script> 
 
-<!-- Select -->
-<script src="../assets/js/select.js"></script>
+<!-- Select --> 
+<script src="../assets/js/select.js"></script> 
 
-<!-- Main -->
-<script src="../assets/bundles/mainscripts.bundle.js"></script>
+<!-- Main --> 
+<script src="../assets/bundles/mainscripts.bundle.js"></script> 
 
-<!-- Custom Js -->
+<!-- Custom Js --> 
 <script type="text/javascript" src="../assets/js/custom.js"></script>
-
 </body>
 </html>
