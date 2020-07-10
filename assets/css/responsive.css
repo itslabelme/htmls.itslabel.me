@@ -127,6 +127,48 @@
   	    max-width: 50%;
   }
 
+
+    .its-login-social{
+    	display: none;
+    }
+
+    .separator-linethrough{
+    	display: none;
+    }
+
+    .its-login-form{
+    	padding: 20px 30px;
+    }
+
+    .its-login-header{
+    	text-align: center;
+    }
+
+    .row.its-login-header .col-md-8,
+        .row.its-login-header .col-md-4{
+    	max-width: 100%;
+    	    flex: 0 0 100%;
+    }
+
+    .its-login-header .col-md-8 .lead{
+    	margin: 0px;
+    }
+
+    .its-login-header .col-md-4 .auth_brand{
+    	text-align: center;
+    }
+
+    
+    .auth-main2{
+    	height: auto;
+    	padding: 50px 0px;
+    }
+
+    .its-register-form.its-login-form .col-md-6{
+    	max-width: 100%;
+    	flex: 0 0 100%;
+    }
+
 }
 /* end 991px-768px */
 @media (max-width:767px) {
@@ -257,6 +299,98 @@
     	width: 20px;
     }
 
+    .hide-mob{
+    	display: none;
+    }
+
+    .free-style-wrapper01 .its-freestyle-container, 
+    .free-style-wrapper01 .its-freestyle-container2{
+    	width: 50%;
+    }
+
+	.free-style-wrapper{
+		padding: 0px;
+	}
+
+    .free-style-wrapper01 .its-freestyle-container3{
+    	width: 100%;
+    	border-top: 1px solid #e5e5e5;
+    }
+
+    .free-style-wrapper01 .its-freestyle-container2{
+    	border-left: 1px solid #e5e5e5;
+    }
+
+    .free-style-wrapper01 .its-freestyle-container3 .its-free-action{
+    		margin: 0px !important;
+    		padding: 0px !important;
+    }
+
+    .its-template-translate .column1, 
+    .its-template-preview .column2{
+    	height: 200px;
+    	padding-right: 20px;
+    }
+
+    .its-template-translate,
+    .its-template-preview{
+    	height: 100%;
+    	padding: 20px;
+    }
+
+    .column3{
+    	font-size: 18px;
+    }
+
+    .its-free-language{
+    	padding-left: 10px;
+    }
+
+    .col-md-6.mb-3.its-free-language{
+    	width: 80%;
+    }
+
+    .its-login-bg{
+    	display: none;
+    }
+
+    .its-login-social{
+    	display: none;
+    }
+
+    .separator-linethrough{
+    	display: none;
+    }
+
+    .its-login-form{
+    	padding: 20px 30px;
+    }
+
+    .its-login-header{
+    	text-align: center;
+    }
+
+    .its-login-header .col-md-8 .lead{
+    	margin: 0px;
+    }
+
+    .its-login-header .col-md-4 .auth_brand{
+    	text-align: center;
+    }
+
+    .auth-main2 .form-auth-small{
+    	text-align: center;
+    }
+
+    .auth-main2{
+    	height: auto;
+    	padding: 50px 0px;
+    }
+
+    .its-register-form.its-login-form .col-md-6{
+    	max-width: 100%;
+    	flex: 0 0 100%;
+    }
 }
 /* end 767px */
 @media (max-width:767px) and (min-width:480px) {}
