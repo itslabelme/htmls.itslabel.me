@@ -927,3 +927,11 @@ fieldset{
   background: none !important;
   border: none !important;
 }
+
+.hide-desk{
+  display: none;
+}
+
+.its-free-action-trans-btn li a{
+  text-transform: uppercase;
+}
