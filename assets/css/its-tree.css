@@ -211,3 +211,7 @@
 .tree-folder-icon a:hover{
     box-shadow: none;
 }
+
+.tree li.active{
+    font-weight: bold;
+}
