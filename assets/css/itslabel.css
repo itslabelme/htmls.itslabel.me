@@ -935,3 +935,17 @@ fieldset{
 .its-free-action-trans-btn li a{
   text-transform: uppercase;
 }
+
+.its-freestyle-container3.hide-mob{
+  position: absolute;
+  max-width: 27%;
+  right: 0px;
+}
+
+.its-free-action-left .its-free-action-inner-top{
+  max-width: 100%;
+}
+
+.its-free-action-left.its-freestyle-container{
+    overflow: inherit;
+}

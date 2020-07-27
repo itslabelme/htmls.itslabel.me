@@ -81,6 +81,11 @@
     text-decoration: none;
     color:#006747;
 }
+
+.tree li:hover{
+    font-weight: bold;
+}
+
 .tree li button, .tree li button:active, .tree li button:focus {
     text-decoration: none;
     color:#006747;
