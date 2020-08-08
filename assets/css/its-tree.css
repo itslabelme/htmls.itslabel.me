@@ -45,6 +45,11 @@
     font-weight: bold;
 }
 
+.tree li a:hover{
+     font-weight: bold;
+   
+}
+
 .tree li i{
     padding-right: 10px;
 }
